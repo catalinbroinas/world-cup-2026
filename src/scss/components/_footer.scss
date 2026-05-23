@@ -1,0 +1,14 @@
+// =================================
+//   FOOTER
+// =================================
+
+.footer {
+  &__text {
+    background-color: $bg-section;
+    padding: 1rem 3rem;
+    margin: 0;
+
+    @include text-footer;
+    text-align: center;
+  }
+}

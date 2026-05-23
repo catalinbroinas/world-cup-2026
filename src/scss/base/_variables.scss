@@ -1,0 +1,53 @@
+// =================================
+//   VARIABLES
+// =================================
+
+// Imports
+@use 'sass:color';
+
+// =================  Colors ================
+
+// Background Colors
+$bg-page: #fbfbfb;
+$bg-surface: #ffffff;
+$bg-section: #f5f5f5;
+$bg-brand: #651fff;
+$bg-accent: #e1f5fe;
+
+$bg-brand-hover: color.scale($bg-brand, $lightness: -10%);
+$bg-brand-active: color.scale($bg-brand, $lightness: -15%);
+$bg-accent-hover: color.scale($bg-accent, $lightness: -10%);
+$bg-accent-active: color.scale($bg-accent, $lightness: -15%);
+
+// Text colors
+$text-primary: #332d2d;
+$text-secondary: #4b5563;
+$text-muted: #6b7280;
+$text-white: #ffffff;
+$text-accent: #6200ea;
+
+// =================  Typography ================
+
+// Fonts
+$font-title: "Roboto", Arial, Helvetica, sans-serif;
+$font-text: "Open Sans", Verdana, Tahoma, sans-serif;
+
+// Generic font sizes
+$fs-base: 1rem;
+$fs-sm: 0.875rem;
+$fs-md: 1rem;
+$fs-lg: 1.25rem;
+$fs-xl: 1.5rem;
+$fs-xxl: 2rem;
+$fs-xxxl: 3rem;
+$fs-ultra: 4rem;
+
+// Card font sizes
+$fs-card-title: 1.35rem;
+$fs-card-subtitle: 1.1rem;
+$fs-card-text: 1rem;
+
+// =================  Utilities ================
+
+$navbar-height: 71.2px;
+$navbar-mobile-height: 60px;

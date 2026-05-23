@@ -1,0 +1,28 @@
+// =================================
+//   CONTENT & STYLES
+// =================================
+
+// =================  Page ================
+
+.bg-page {
+  background-color: $bg-page;
+}
+
+// =================  Typography ================
+
+// Section titles
+.title { @include title(); text-align: center; }
+.subtitle { @include subtitle(); }
+
+// Body text
+.text { @include text(); }
+.text-muted-strong { @include text-muted(); }
+
+// =================  Utilities ================
+
+.scroll-margin {
+  scroll-margin-top: $navbar-height + 21px;
+  @include media-breakpoint-down(lg) {
+    scroll-margin-top: $navbar-mobile-height + 21px;
+  }
+}
