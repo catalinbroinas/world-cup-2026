@@ -5,8 +5,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sass": "sass src/scss/main.scss dist/css/style.css --watch",
-    "live": "http-server ./ -p 8081"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
