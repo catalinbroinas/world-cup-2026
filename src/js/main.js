@@ -1,1 +1,16 @@
 import '../scss/main.scss';
+
+import { Ripple, Collapse, initMDB } from 'mdb-ui-kit/js/mdb.es.min.js';
+
+function MainDomManager() {
+    const initApp = () => {
+        initMDB({ Ripple, Collapse });
+    };
+
+    return { initApp };
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const domManager = MainDomManager();
+    domManager.initApp();
+});
