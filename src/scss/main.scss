@@ -13,10 +13,6 @@
 @import './base/variables';
 @import './base/mixins';
 
-// Custom bootstrap and utilities
-@import './mdb-overrides/custom-bootstrap';
-@import './mdb-overrides/utilities-api';
-
 // MDBootstrap
 @use 'mdb';
 
