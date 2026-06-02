@@ -18,7 +18,7 @@
 @import './mdb-overrides/utilities-api';
 
 // MDBootstrap
-@import './mdb-overrides/mdb-overrides';
+@use 'mdb';
 
 // Content & Styles
 @import './content-styles/content-styles';

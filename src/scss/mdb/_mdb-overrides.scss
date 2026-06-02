@@ -1,0 +1,109 @@
+// =================================
+//   IMPORT MDB COMPONENTS
+// =================================
+
+// CORE FUNCTIONS
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/functions';
+@import 'mdb-ui-kit/src/scss/free/functions';
+
+// CORE VARIABLES
+@import 'mdb-ui-kit/src/scss/custom/variables';
+@import 'mdb-ui-kit/src/scss/free/variables';
+@import 'mdb-ui-kit/src/scss/free/variables-dark';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/variables';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/variables-dark';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/maps';
+
+// BOOTSTRAP CORE
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/mixins';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/utilities';
+
+// BOOTSTRAP CORE COMPONENTS
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/root';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/reboot';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/type';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/images';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/containers';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/grid';
+
+// BOOTSTRAP COMPONENTS
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/tables';             // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/forms';              // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/buttons';            // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/transitions';        // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/dropdown';           // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/button-group';       // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/nav';                // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/navbar';             // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/card';               // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/accordion';          // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/breadcrumb';         // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/pagination';         // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/badge';              // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/alert';              // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/progress';           // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/list-group';         // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/close';              // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/toasts';             // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/modal';              // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/tooltip';            // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/popover';            // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/carousel';           // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/spinners';           // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/offcanvas';          // optional
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/placeholders';       // optional
+
+// Helpers
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/helpers';
+
+// Utilities
+@import 'mdb-ui-kit/src/scss/free/utilities';
+@import 'mdb-ui-kit/src/scss/bootstrap-rtl-fix/utilities/api';
+
+// MDB CORE
+@import 'mdb-ui-kit/src/scss/free/mixins';
+@import 'mdb-ui-kit/src/scss/free/utilities';
+
+// MDB CORE COMPONENTS
+@import 'mdb-ui-kit/src/scss/free/root';
+@import 'mdb-ui-kit/src/scss/free/reboot';
+@import 'mdb-ui-kit/src/scss/free/type';
+@import 'mdb-ui-kit/src/scss/free/colors';
+@import 'mdb-ui-kit/src/scss/free/shadows';
+@import 'mdb-ui-kit/src/scss/free/flag';                        // optional
+@import 'mdb-ui-kit/src/scss/free/images';
+
+// MDB FORMS
+@import 'mdb-ui-kit/src/scss/free/forms/form-control';          // optional
+@import 'mdb-ui-kit/src/scss/free/forms/form-select';           // optional
+@import 'mdb-ui-kit/src/scss/free/forms/form-check';            // optional
+@import 'mdb-ui-kit/src/scss/free/forms/form-file';             // optional
+@import 'mdb-ui-kit/src/scss/free/forms/input-group';           // optional
+@import 'mdb-ui-kit/src/scss/free/forms/validation';            // optional
+@import 'mdb-ui-kit/src/scss/free/forms/form-range';            // optional
+
+// MDB COMPONENTS
+@import 'mdb-ui-kit/src/scss/free/tables';                      // optional
+@import 'mdb-ui-kit/src/scss/free/buttons';                     // optional
+@import 'mdb-ui-kit/src/scss/free/deprecated';                  // optional
+@import 'mdb-ui-kit/src/scss/free/dropdown';                    // optional
+@import 'mdb-ui-kit/src/scss/free/button-group';                // optional
+@import 'mdb-ui-kit/src/scss/free/nav';                         // optional
+@import 'mdb-ui-kit/src/scss/free/navbar';                      // optional
+@import 'mdb-ui-kit/src/scss/free/card';                        // optional
+@import 'mdb-ui-kit/src/scss/free/breadcrumb';                  // optional
+@import 'mdb-ui-kit/src/scss/free/pagination';                  // optional
+@import 'mdb-ui-kit/src/scss/free/badge';                       // optional
+@import 'mdb-ui-kit/src/scss/free/alert';                       // optional
+@import 'mdb-ui-kit/src/scss/free/progress';                    // optional
+@import 'mdb-ui-kit/src/scss/free/list-group';                  // optional
+@import 'mdb-ui-kit/src/scss/free/close';                       // optional
+@import 'mdb-ui-kit/src/scss/free/modal';                       // optional
+@import 'mdb-ui-kit/src/scss/free/toasts';                      // optional
+@import 'mdb-ui-kit/src/scss/free/tooltip';                     // optional
+@import 'mdb-ui-kit/src/scss/free/popover';                     // optional
+@import 'mdb-ui-kit/src/scss/free/scrollspy';                   // optional
+@import 'mdb-ui-kit/src/scss/free/ripple';                      // optional
+@import 'mdb-ui-kit/src/scss/free/range';                       // optional
+@import 'mdb-ui-kit/src/scss/free/accordion';                   // optional
+@import 'mdb-ui-kit/src/scss/free/carousel';                    // optional
