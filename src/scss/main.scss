@@ -19,5 +19,4 @@
 @use 'content-styles';
 
 // Components
-@import './components/navbar';
-@import './components/footer';
+@use 'components';
