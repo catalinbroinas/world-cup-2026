@@ -10,8 +10,7 @@
 @import '../../node_modules/typeface-open-sans/index.css';
 
 // Variables and mixins
-@import './base/variables';
-@import './base/mixins';
+@use 'base';
 
 // MDBootstrap
 @use 'mdb';
