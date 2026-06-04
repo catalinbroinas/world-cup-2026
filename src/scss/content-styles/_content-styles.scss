@@ -1,3 +1,6 @@
+@use '../base' as *;
+@use '../mdb/mdb-overrides' as mdb;
+
 // =================================
 //   CONTENT & STYLES
 // =================================
@@ -22,7 +25,7 @@
 
 .scroll-margin {
   scroll-margin-top: $navbar-height + 21px;
-  @include media-breakpoint-down(lg) {
+  @include mdb.media-breakpoint-down(lg) {
     scroll-margin-top: $navbar-mobile-height + 21px;
   }
 }
