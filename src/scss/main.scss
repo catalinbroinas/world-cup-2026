@@ -16,7 +16,7 @@
 @use 'mdb';
 
 // Content & Styles
-@import './content-styles/content-styles';
+@use 'content-styles';
 
 // Components
 @import './components/navbar';
