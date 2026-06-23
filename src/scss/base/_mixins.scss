@@ -1,10 +1,8 @@
 @use 'variables' as *;
 
 // =================================
-//   MIXINS
+//   TYPOGRAPHY
 // =================================
-
-// =================  Typography ================
 
 @mixin custom-text(
   $font-family: $font-text,
@@ -43,7 +41,9 @@
   opacity: 0.9;
 }
 
-// =================  Styles ================
+// =================================
+//   STYLES
+// =================================
 
 // Masks
 @mixin mask-dark($opacity: 0.15) {
@@ -61,7 +61,9 @@
   opacity: 0.8;
 }
 
-// =================  Animation ================
+// =================================
+//   ANIMATIONS
+// =================================
 
 // Navbar border
 @mixin nav-item-border($bg-color: $primary, $width: 0px, $left: 0%) {
