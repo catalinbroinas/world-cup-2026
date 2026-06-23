@@ -1,11 +1,8 @@
-// =================================
-//   VARIABLES
-// =================================
-
-// Imports
 @use 'sass:color';
 
-// =================  Colors ================
+// =================================
+//   COLORS
+// =================================
 
 // Background Colors
 $bg-page: #fbfbfb;
@@ -26,16 +23,23 @@ $text-muted: #6b7280;
 $text-white: #ffffff;
 $text-accent: #6200ea;
 
-// =================  Typography ================
+// =================================
+//   TYPOGRAPHY CONFIG
+// =================================
 
-// Fonts
 $font: "Inter", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
 
 $font-title: $font;
 $font-text: $font;
 
-// Generic font sizes
+// =================================
+//   TYPOGRAPHY SCALE
+// =================================
+
+// Default size
 $fs-base: 1rem;
+
+// Font sizes
 $fs-sm: 0.875rem;
 $fs-md: 1rem;
 $fs-lg: 1.25rem;
@@ -49,7 +53,10 @@ $fs-card-title: 1.35rem;
 $fs-card-subtitle: 1.1rem;
 $fs-card-text: 1rem;
 
-// =================  Utilities ================
+// =================================
+//   LAYOUT
+// =================================
 
+// Navbar
 $navbar-height: 71.2px;
 $navbar-mobile-height: 60px;
