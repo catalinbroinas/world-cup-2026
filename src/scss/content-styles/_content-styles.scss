@@ -2,26 +2,24 @@
 @use '../mdb/mdb-overrides' as mdb;
 
 // =================================
-//   CONTENT & STYLES
+//   TYPOGRAPHY
 // =================================
 
-// =================  Page ================
-
-.bg-page {
-  background-color: $bg-page;
+// Section titles
+.title {
+  @include title();
+  text-align: center;
 }
 
-// =================  Typography ================
-
-// Section titles
-.title { @include title(); text-align: center; }
 .subtitle { @include subtitle(); }
 
 // Body text
 .text { @include text(); }
 .text-muted-strong { @include text-muted(); }
 
-// =================  Utilities ================
+// =================================
+//   UTILITIES
+// =================================
 
 .scroll-margin {
   scroll-margin-top: $navbar-height + 21px;
