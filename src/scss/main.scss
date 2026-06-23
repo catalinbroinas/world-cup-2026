@@ -10,6 +10,9 @@
 // MDBootstrap
 @use 'mdb';
 
+// Global styles
+@use 'global-overrides';
+
 // Content & Styles
 @use 'content-styles';
 

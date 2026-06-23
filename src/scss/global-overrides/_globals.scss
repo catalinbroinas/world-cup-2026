@@ -1,0 +1,16 @@
+@use '../base/variables' as *;
+
+// =================================
+//   GLOBAL STYLES
+// =================================
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $bg-page;
+  color: $text-primary;
+  font-family: $font-text, sans-serif;
+  font-size: $fs-base;
+}
