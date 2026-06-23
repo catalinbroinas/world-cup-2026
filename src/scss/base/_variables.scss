@@ -29,8 +29,10 @@ $text-accent: #6200ea;
 // =================  Typography ================
 
 // Fonts
-$font-title: "Roboto", Arial, Helvetica, sans-serif;
-$font-text: "Open Sans", Verdana, Tahoma, sans-serif;
+$font: "Inter", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+
+$font-title: $font;
+$font-text: $font;
 
 // Generic font sizes
 $fs-base: 1rem;
