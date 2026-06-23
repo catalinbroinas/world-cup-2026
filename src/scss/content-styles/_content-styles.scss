@@ -6,24 +6,13 @@
 // =================================
 
 // Section titles
-.title {
+.section-title {
   @include title();
   text-align: center;
 }
 
-.subtitle { @include subtitle(); }
+.section-subtitle { @include subtitle(); }
 
 // Body text
-.text { @include text(); }
+.section-text { @include text(); }
 .text-muted-strong { @include text-muted(); }
-
-// =================================
-//   UTILITIES
-// =================================
-
-.scroll-margin {
-  scroll-margin-top: $navbar-height + 21px;
-  @include mdb.media-breakpoint-down(lg) {
-    scroll-margin-top: $navbar-mobile-height + 21px;
-  }
-}
