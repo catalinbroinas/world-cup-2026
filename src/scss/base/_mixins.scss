@@ -21,7 +21,7 @@
 }
 
 // Headings
-@mixin title($size: $fs-xxl, $color: $text-primary) {
+@mixin title($size: $fs-2xl, $color: $text-primary) {
   @include custom-text($font-title, 700, $size, $color, 1.3);
 }
 
