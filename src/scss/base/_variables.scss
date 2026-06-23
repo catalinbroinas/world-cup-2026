@@ -4,17 +4,17 @@
 //   COLORS
 // =================================
 
-// Background Colors
+// Brand
+$brand: #651fff;
+
+// Semantic UI
+$primary: $brand;
+
+// Layout / surface
 $bg-page: #fbfbfb;
 $bg-surface: #ffffff;
 $bg-section: #f5f5f5;
-$bg-brand: #651fff;
 $bg-accent: #e1f5fe;
-
-$bg-brand-hover: color.scale($bg-brand, $lightness: -10%);
-$bg-brand-active: color.scale($bg-brand, $lightness: -15%);
-$bg-accent-hover: color.scale($bg-accent, $lightness: -10%);
-$bg-accent-active: color.scale($bg-accent, $lightness: -15%);
 
 // Text colors
 $text-primary: #332d2d;

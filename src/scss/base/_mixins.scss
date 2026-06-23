@@ -64,7 +64,7 @@
 // =================  Animation ================
 
 // Navbar border
-@mixin nav-item-border($bg-color: $bg-brand, $width: 0px, $left: 0%) {
+@mixin nav-item-border($bg-color: $primary, $width: 0px, $left: 0%) {
   position: absolute;
   width: $width;
   height: 6px;
