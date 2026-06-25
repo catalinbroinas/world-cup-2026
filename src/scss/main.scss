@@ -1,23 +1,6 @@
-// =================================
-//   MAIN
-// =================================
-
-// =================  Imports ================
-
-// Variables and mixins
 @use 'base';
-
-// MDBootstrap
 @use 'mdb';
-
-// Global styles
 @use 'global-overrides';
-
-// Typography
 @use 'content';
-
-// Utilities
 @use 'utilities';
-
-// Components
 @use 'components';
