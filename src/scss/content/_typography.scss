@@ -1,0 +1,17 @@
+@use '../base' as *;
+
+// =================================
+//   TYPOGRAPHY
+// =================================
+
+// Section titles
+.section-title {
+  @include title();
+  text-align: center;
+}
+
+.section-subtitle { @include subtitle(); }
+
+// Body text
+.section-text { @include text(); }
+.text-muted-strong { @include text-muted(); }
