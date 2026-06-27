@@ -1,0 +1,125 @@
+@use '../base/' as *;
+@use '../mdb' as mdb;
+
+// =================================
+//   INTRO
+// =================================
+
+.intro {
+  position: relative;
+  z-index: 1;
+
+  min-height: 100vh;
+  min-height: 100svh;
+
+  background-image: url("../../assets/images/intro.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* iOS fix */
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: scroll;
+  }
+
+  &__mask {
+    @include mask-dark(0.6);
+    display: flex;
+    align-items: center;
+  }
+
+  &__hr {
+    color: $text-white;
+    border: 4px solid $text-white;
+    border-radius: 1rem;
+    margin: 0;
+  }
+
+  &__title {
+    @include title($size: 4rem, $color: $text-white);
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.25rem;
+  }
+
+  &__subtitle {
+    @include subtitle($size: 2.5rem, $color: $text-white);
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5rem;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin: 2rem 3rem;
+  }
+
+  &__item {
+    background-color: rgba(#fff, 0.1);
+    backdrop-filter: blur(8px);
+    width: 150px;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    text-align: center;
+
+    transition-property: background-color, transform, box-shadow;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &__item-value {
+    @include title($size: 3rem, $color: $text-white);
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__item-label {
+    @include subtitle($size: 1.5rem, $color: $text-white);
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+
+  &__btn-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__btn.btn.btn-light {
+    @include mask-light(0.1);
+    border: 1px solid rgba($text-white, 0.4);
+    color: $text-white;
+    backdrop-filter: blur(5px);
+
+    padding: 10px 24px;
+    font-size: 1rem;
+    border-radius: 30px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    transition-property: background-color, border, box-shadow, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:active {
+      background-color: transparent;
+      border: 1.5px solid rgba($text-white, $alpha: 0.7);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+    }
+  }
+}
