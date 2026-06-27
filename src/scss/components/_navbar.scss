@@ -45,16 +45,22 @@
     position: relative;
   }
 
-  .navbar-brand::after,
-  .nav-link::after {
-    content: '';
-    @include nav-item-border($text-accent, 0px, 50%);
-  }
+  @media (hover: hover) {
+    .navbar-brand::after,
+    .nav-link::after {
+      content: '';
+      @include nav-item-border(
+        $bg-color: $primary,
+        $width: 0px,
+        $left: 50%
+      );
+    }
 
-  .navbar-brand:hover::after,
-  .nav-link:hover::after {
-    width: 100%;
-    left: 0;
+    .navbar-brand:hover::after,
+    .nav-link:hover::after {
+      width: 100%;
+      left: 0;
+    }
   }
 
   @include mdb.media-breakpoint-down(lg) {
