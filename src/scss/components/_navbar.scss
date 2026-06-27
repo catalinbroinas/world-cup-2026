@@ -6,11 +6,15 @@
 // =================================
 
 .navbar {
+  position: fixed;
+  z-index: 2;
   background-color: $bg-surface;
   padding: 0.5rem 0 0;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.07), 
+    0 2px 4px rgba(0, 0, 0, 0.05);
 
   .navbar-toggler {
-    color: $text-accent;
+    color: $primary;
     padding: 1rem;
   }
 
@@ -22,6 +26,7 @@
   .navbar-title {
     @include title(1.5rem);
     color: $text-accent;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   }
 
   .navbar-nav {
