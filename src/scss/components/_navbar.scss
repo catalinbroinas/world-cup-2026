@@ -11,6 +11,10 @@
   background-color: transparent;
   padding: 0.5rem 0 0;
   box-shadow: none;
+  
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 
   .navbar-toggler {
     color: $primary;
