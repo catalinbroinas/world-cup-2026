@@ -2,20 +2,22 @@
 function NavbarManager(navbar) {
   if (!navbar) {
     console.error('Navbar not found!');
-    return {
-      scrollNavbar: () => { }
-    };
+    return;
   }
 
-  const scrollNavbar = () => {
-    window.addEventListener('scroll', () => {
-      (window.pageYOffset > 100)
-        ? navbar.classList.add('navbar--scrolled')
-        : navbar.classList.remove('navbar--scrolled')
-    });
+  const handleScroll = () => {
+    navbar.classList.toggle(
+      'navbar--scrolled',
+      window.pageYOffset > 100
+    );
   };
 
-  return { scrollNavbar };
+  const initScroll = () => {
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+  };
+
+  return { initScroll };
 }
 
 export { NavbarManager };

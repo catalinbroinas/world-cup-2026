@@ -15,7 +15,7 @@ function MainDomManager() {
     const navbar = document.querySelector('#navbar');
     const navbarManager = NavbarManager(navbar);
 
-    navbarManager.scrollNavbar();
+    navbarManager.initScroll();
   };
 
   const initApp = () => {
