@@ -12,3 +12,23 @@
     scroll-margin-top: $navbar-mobile-height + 21px;
   }
 }
+
+.section-margin {
+  margin-bottom: $section-spacing-xl;
+
+  @include mdb.media-breakpoint-down(xxl) {
+    margin-bottom: $section-spacing-lg;
+  }
+
+  @include mdb.media-breakpoint-down(xl) {
+    margin-bottom: $section-spacing-md;
+  }
+
+  @include mdb.media-breakpoint-down(lg) {
+    margin-bottom: $section-spacing-sm;
+  }
+
+  @include mdb.media-breakpoint-down(sm) {
+    margin-bottom: $section-spacing-xs;
+  }
+}
