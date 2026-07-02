@@ -16,7 +16,7 @@ import { createRoot } from 'react-dom/client';
 // Components
 import Teams from './react/sections/Teams';
 
-function MainDomManager() {
+function AppManager() {
   const addEvents = () => {
     const navbar = document.querySelector('#navbar');
     const navbarManager = NavbarManager(navbar);
@@ -42,6 +42,6 @@ function MainDomManager() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const domManager = MainDomManager();
-  domManager.initApp();
+  const app = AppManager();
+  app.initApp();
 });
