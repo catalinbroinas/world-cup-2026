@@ -10,6 +10,12 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // Modules
 import { NavbarManager } from './modules/dom/navbar';
 
+// React
+import { createRoot } from 'react-dom/client';
+
+// Components
+import Teams from './react/sections/Teams';
+
 function MainDomManager() {
   const addEvents = () => {
     const navbar = document.querySelector('#navbar');
@@ -18,9 +24,18 @@ function MainDomManager() {
     navbarManager.initScroll();
   };
 
+  const renderContent = () => {
+    const teams = document.querySelector('#teams-root');
+
+    if (teams) {
+      createRoot(teams).render(<Teams />);
+    }
+  };
+
   const initApp = () => {
     initMDB({ Ripple, Collapse });
     addEvents();
+    renderContent();
   };
 
   return { initApp };
