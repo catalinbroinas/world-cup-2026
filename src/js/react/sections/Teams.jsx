@@ -1,7 +1,11 @@
+import TeamGrid from "../components/TeamGrid";
+
+import { teams } from "../data/teams";
 
 function Teams() {
   return (
     <>
+      <TeamGrid teams={teams} />
     </>
   );
 }
