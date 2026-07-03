@@ -1,4 +1,4 @@
-import TeamGrid from "../components/TeamGrid";
+import TeamGrid from "../components/Teams/TeamGrid";
 
 import { teams } from "../data/teams";
 
