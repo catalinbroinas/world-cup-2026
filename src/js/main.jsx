@@ -15,6 +15,7 @@ import { createRoot } from 'react-dom/client';
 
 // Components
 import Teams from './react/sections/Teams';
+import Groups from './react/sections/Groups';
 
 function AppManager() {
   const addEvents = () => {
@@ -26,9 +27,14 @@ function AppManager() {
 
   const renderContent = () => {
     const teams = document.querySelector('#teams-root');
+    const groups = document.querySelector('#groups-root');
 
     if (teams) {
       createRoot(teams).render(<Teams />);
+    }
+
+    if (groups) {
+      createRoot(groups).render(<Groups />);
     }
   };
 
