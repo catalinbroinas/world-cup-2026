@@ -2,24 +2,24 @@ import { teamImages } from "./teamImages";
 
 export const teams = [
   {
-    id: "belgium",
-    imageUrl: teamImages.belgium,
-    imageAlt: "Mons, Région Wallonne, Belgique",
-    name: "Belgium",
-    flag: "belgium"
+    id: "spain",
+    imageUrl: teamImages.bernabeu,
+    imageAlt: "Santiago Bernabeu",
+    name: "Spain",
+    flag: "spain"
   },
   {
-    id: "panama",
-    imageUrl: teamImages.panama,
-    imageAlt: "Panama City, Panama",
-    name: "Panama",
-    flag: "panama"
+    id: "england",
+    imageUrl: teamImages.wembley,
+    imageAlt: "Wembley stadium",
+    name: "England",
+    flag: "england"
   },
   {
-    id: "algeria",
-    imageUrl: teamImages.algeria,
-    imageAlt: "Alger Centre, Wilaya d'Alger, Algérie,",
-    name: "Algeria",
-    flag: "algeria"
+    id: "germany",
+    imageUrl: teamImages.olympiastadion,
+    imageAlt: "Olympiastadion",
+    name: "Germany",
+    flag: "germany"
   },
 ];

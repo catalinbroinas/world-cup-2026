@@ -1,9 +1,9 @@
-import algeriaImg from "../../../assets/images/countries/algeria.webp";
-import belgiumImg from "../../../assets/images/countries/belgium.webp";
-import panamaImg from "../../../assets/images/countries/panama.webp";
+import wembleyImg from "../../../assets/images/stadiums/wembley.webp";
+import olympiastadionImg from "../../../assets/images/stadiums/olympiastadion.webp";
+import bernabeuImg from "../../../assets/images/stadiums/bernabeu.webp";
 
 export const teamImages = {
-  algeria: algeriaImg,
-  belgium: belgiumImg,
-  panama: panamaImg
+  wembley: wembleyImg,
+  olympiastadion: olympiastadionImg,
+  bernabeu: bernabeuImg
 };
