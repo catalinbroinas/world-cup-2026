@@ -54,7 +54,7 @@ function GroupTable({ group }) {
                     className={`flag flag-${team.flag} me-2`}
                     aria-hidden="true"
                   ></i>
-                  {team.name}
+                  {team.country}
                 </span>
               </td>
 
