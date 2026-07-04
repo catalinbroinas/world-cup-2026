@@ -10,6 +10,9 @@ function GroupTable({ group }) {
     b.GF - a.GF
   );
 
+  const calcPoints = (victory, draw) => victory * 3 + draw;
+  const calcGoalDifference = (scored, concede) => scored - concede;
+
   return (
     <div className="table-responsive group-table">
       <h3 className="group-table__title">{name}</h3>
@@ -60,10 +63,10 @@ function GroupTable({ group }) {
               <td>{team.L}</td>
               <td>{team.GF}</td>
               <td>{team.GA}</td>
-              <td>{team.GF - team.GA}</td>
+              <td>{calcGoalDifference(team.GF, team.GA)}</td>
 
               <td>
-                <strong>{team.Pts}</strong>
+                <strong>{calcPoints(team.W, team.D)}</strong>
               </td>
             </tr>
           ))}
