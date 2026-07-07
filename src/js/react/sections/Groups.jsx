@@ -16,17 +16,17 @@ function Groups() {
 
   return (
     <>
-      <section className="group-navigation">
+      <div className="group-navigation">
         <GroupTabs
           groups={groups}
           activeTab={activeGroupId}
           onTabChange={setActiveGroupId}
         />
-      </section>
+      </div>
 
-      <section className="group-stats">
+      <div className="group-stats">
         <GroupTable group={selectedGroup} />
-      </section>
+      </div>
     </>
   );
 }
