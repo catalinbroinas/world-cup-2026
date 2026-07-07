@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { Modal, initMDB } from "mdb-ui-kit/js/mdb.es.min";
 
 function MatchCard({ match }) {
   const { homeTeam, awayTeam, stadium, referee } = match;
@@ -7,17 +5,8 @@ function MatchCard({ match }) {
   const isHomeWinner = homeTeam.result > awayTeam.result;
   const isAwayWinner = awayTeam.result > homeTeam.result;
 
-  useEffect(() => {
-    initMDB({ Modal });
-  }, []);
-
   return (
-    <div
-      role="button"
-      className="card card-match"
-      data-mdb-modal-init
-      data-mdb-target={`#match-modal-${match.id}`}
-    >
+    <div className="card card-match">
       <div className="card-body card-match__body">
         <ul className="list-group list-group-light list-group-small">
           <li className="list-group-item card-match__team">
