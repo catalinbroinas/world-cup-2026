@@ -22,23 +22,23 @@ function Groups() {
 
   return (
     <div className="groups-content">
-      <div className="group-navigation">
+      <nav className="group-navigation" aria-label="Groups navigation">
         <GroupTabs
           groups={groups}
           activeTab={activeGroupId}
           onTabChange={setActiveGroupId}
         />
-      </div>
+      </nav>
 
-      <div className="group-stats">
+      <section className="group-stats">
         <GroupTable group={selectedGroup} />
-      </div>
+      </section>
 
-      <div className="group-matches">
+      <section className="group-matches">
         <h3 className="subtitle mb-0">Match day 1</h3>
         <hr className="hr mt-2 mb-4" />
         <MatchGrid matches={matchDay1} />
-      </div>
+      </section>
     </div>
   );
 }
