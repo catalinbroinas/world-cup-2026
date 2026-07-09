@@ -1,0 +1,11 @@
+@use '../base/' as *;
+
+// =================================
+//   GROUPS
+// =================================
+
+.groups-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

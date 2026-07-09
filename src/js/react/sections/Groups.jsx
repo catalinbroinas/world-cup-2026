@@ -21,7 +21,7 @@ function Groups() {
   const matchDay1 = groupMatches.filter((match) => match.round === 1);
 
   return (
-    <>
+    <div className="groups-content">
       <div className="group-navigation">
         <GroupTabs
           groups={groups}
@@ -39,7 +39,7 @@ function Groups() {
         <hr className="hr mt-2 mb-4" />
         <MatchGrid matches={matchDay1} />
       </div>
-    </>
+    </div>
   );
 }
 
