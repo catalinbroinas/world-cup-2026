@@ -9,3 +9,67 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+// =================================
+//   GROUPS - Navigation
+// =================================
+
+.group-tabs {
+  overflow-x: auto;
+  scrollbar-width: thin;
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+
+  background-color: $bg-section;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.08);
+
+  @include media-breakpoint-down(lg) {
+    padding: 1rem;
+    gap: 0;
+  }
+
+  &__item {
+    background-color: transparent;
+    flex: 1;
+
+    @include media-breakpoint-down(lg) {
+      flex: 0 0 auto;
+    }
+  }
+
+  &__link {
+    width: 100%;
+    background-color: transparent;
+    color: $text-secondary;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    
+    transition-property: background-color, color;
+    transition-duration: .25s;
+    transition-timing-function: ease;
+
+    @include media-breakpoint-down(lg) {
+      width: auto;
+      border-radius: 0.25rem;
+    }
+
+    &:hover {
+      background-color: rgba($primary, 8%);
+    }
+
+    &:focus-visible {
+      background-color: rgba($primary, 8%);
+      outline: 2px solid rgba($primary, 0.35);
+    }
+
+    &.active {
+      background-color: $primary;
+      color: $text-white;
+    }
+  }
+}

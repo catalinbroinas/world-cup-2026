@@ -12,7 +12,7 @@ function GroupTabs({ groups, activeTab, onTabChange }) {
             type="button"
             role="tab"
             aria-selected={group.id === activeTab}
-            className={`nav-link group-tabs__link${
+            className={`group-tabs__link${
               group.id === activeTab ? " active" : ""
             }`}
             onClick={() => onTabChange(group.id)}
