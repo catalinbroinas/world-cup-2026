@@ -98,4 +98,23 @@
     letter-spacing: 0.5px;
     margin-bottom: 1rem;
   }
+
+  &__head {
+    th {
+      background-color: $bg-accent;
+      color: $text-primary;
+    }
+  }
+
+  &__body {
+    td {
+      background-color: $bg-surface;
+      color: $text-secondary;
+    }
+  }
+  
+  &__country {
+    color: $text-primary;
+    font-weight: 600;
+  }
 }
