@@ -22,7 +22,7 @@ function GroupTable({ group }) {
         <thead className="table-light group-table__head">
           <tr>
             <th scope="col">#</th>
-            <th scope="col" className="text-center">Team</th>
+            <th scope="col">Team</th>
             <th scope="col">MP</th>
             <th scope="col">W</th>
             <th scope="col">D</th>
