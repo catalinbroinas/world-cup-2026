@@ -1,5 +1,9 @@
+// Constants
+import { PLACE_CLASS } from "../../../constants/groups";
+
+// Helpers
 import {
-  getPlaceStatusClass,
+  getPlaceStatus,
   calcMatchesPlayed,
   calcGoalDifference,
   calcPoints
@@ -39,7 +43,7 @@ function GroupTable({ group }) {
             <tr
               key={team.id}
             >
-              <td className={`group-table__place ${getPlaceStatusClass(index + 1)}`}>
+              <td className={`group-table__place ${PLACE_CLASS[getPlaceStatus(index + 1)]}`}>
                 <strong>{index + 1}.</strong>
               </td>
 

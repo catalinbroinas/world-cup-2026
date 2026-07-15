@@ -1,19 +1,19 @@
 import {
   QUALIFIED_PLACES,
   PLAYOFF_PLACE,
-  PLACE_CLASS
+  PLACE_STATUS
 } from "../constants/groups";
 
-export const getPlaceStatusClass = (place) => {
+export const getPlaceStatus = (place) => {
   if (place <= QUALIFIED_PLACES) {
-    return PLACE_CLASS.qualified;
+    return PLACE_STATUS.QUALIFIED;
   }
 
   if (place === PLAYOFF_PLACE) {
-    return PLACE_CLASS.playoff;
+    return PLACE_STATUS.PLAYOFF;
   }
 
-  return PLACE_CLASS.eliminated;
+  return PLACE_STATUS.ELIMINATED;
 };
 
 export const calcMatchesPlayed = (victory, draw, lost) => victory + draw + lost;
