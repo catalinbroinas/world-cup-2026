@@ -38,13 +38,12 @@ function GroupTable({ group }) {
           {standing.map((team, index) => (
             <tr
               key={team.id}
-              className={`group-table__place ${
+            >
+              <td className={`group-table__place ${
                 index < QUALIFIED_TEAMS
                   ? "group-table__place--qualification"
                   : ""
-              }`}
-            >
-              <td>
+              }`}>
                 <strong>{index + 1}.</strong>
               </td>
 

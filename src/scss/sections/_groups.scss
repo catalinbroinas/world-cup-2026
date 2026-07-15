@@ -111,6 +111,17 @@
       background-color: $bg-surface;
       color: $text-secondary;
     }
+
+    td.group-table__place {
+      background-color: $bg-surface;
+      color: $text-primary;
+      font-weight: 700;
+    }
+
+    td.group-table__place--qualification {
+      background-color: $success-bg;
+      color: $success-text;
+    }
   }
   
   &__country {
