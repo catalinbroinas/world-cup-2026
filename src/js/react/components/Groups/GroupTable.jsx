@@ -1,37 +1,18 @@
+import {
+  getPlaceStatusClass,
+  calcMatchesPlayed,
+  calcGoalDifference,
+  calcPoints
+} from "../../../utils/groups";
 
 function GroupTable({ group }) {
   const { teams, name } = group;
-
-  const PLACE_QUALIFIED = 2;
-  const PLACE_PLAYOFF = 3;
-
-  const PLACE_CLASS = {
-    QUALIFIED: "group-table__place--qualification",
-    PLAYOFF: "group-table__place--playoff",
-    ELIMINATED: ""
-  };
 
   const standing = [...teams].sort((a, b) =>
     b.Pts - a.Pts ||
     (b.GF - b.GA) - (a.GF - a.GA) ||
     b.GF - a.GF
   );
-
-  const calcMatchesPlayed = (victory, draw, lost) => victory + draw + lost;
-  const calcPoints = (victory, draw) => victory * 3 + draw;
-  const calcGoalDifference = (scored, concede) => scored - concede;
-
-  const getPlaceStatusClass = (place) => {
-    if (place <= PLACE_QUALIFIED) {
-      return PLACE_CLASS.QUALIFIED;
-    }
-
-    if (place === PLACE_PLAYOFF) {
-      return PLACE_CLASS.PLAYOFF;
-    }
-
-    return PLACE_CLASS.ELIMINATED;
-  };
 
   return (
     <div className="table-responsive group-table">
