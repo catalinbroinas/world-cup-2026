@@ -122,6 +122,11 @@
       background-color: $success-bg;
       color: $success-text;
     }
+
+    td.group-table__place--playoff {
+      background-color: $info-bg;
+      color: $info-text;
+    }
   }
   
   &__country {
