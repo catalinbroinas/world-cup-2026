@@ -19,3 +19,15 @@ export const getPlaceStatus = (place) => {
 export const calcMatchesPlayed = (victory, draw, lost) => victory + draw + lost;
 export const calcPoints = (victory, draw) => victory * 3 + draw;
 export const calcGoalDifference = (scored, concede) => scored - concede;
+
+const compareTeams = (teamA, teamB) => {
+  const points = calcPoints(teamB.W, teamB.D) - calcPoints(teamA.W, teamA.D);
+  const goalDifference =
+    calcGoalDifference(teamB.GF, teamB.GA) -
+    calcGoalDifference(teamA.GF, teamA.GA);
+  const goalsScored = teamB.GF - teamA.GF;
+
+  return points || goalDifference || goalsScored;
+};
+
+export const getGroupStanding = (teams) => [...teams].sort(compareTeams);

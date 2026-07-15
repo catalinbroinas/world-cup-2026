@@ -4,6 +4,7 @@ import { PLACE_CLASS } from "../../../constants/groups";
 // Helpers
 import {
   getPlaceStatus,
+  getGroupStanding,
   calcMatchesPlayed,
   calcGoalDifference,
   calcPoints
@@ -12,11 +13,7 @@ import {
 function GroupTable({ group }) {
   const { teams, name } = group;
 
-  const standing = [...teams].sort((a, b) =>
-    b.Pts - a.Pts ||
-    (b.GF - b.GA) - (a.GF - a.GA) ||
-    b.GF - a.GF
-  );
+  const standing = getGroupStanding(teams);
 
   return (
     <div className="table-responsive group-table">
