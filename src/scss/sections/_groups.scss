@@ -107,7 +107,8 @@
   }
 
   &__body {
-    td {
+    td,
+    th {
       background-color: $bg-surface;
       color: $text-secondary;
     }
@@ -129,7 +130,13 @@
     }
   }
   
-  &__country {
+  &__team {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  &__team-name {
     color: $text-primary;
     font-weight: 600;
   }
