@@ -88,7 +88,7 @@
   margin-inline: auto;
 
   background-color: $bg-section;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 2rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.08);
 
@@ -97,6 +97,10 @@
     text-align: center;
     letter-spacing: 0.5px;
     margin-bottom: 1rem;
+  }
+
+  &__table {
+    margin-bottom: 0;
   }
 
   &__head {
