@@ -57,3 +57,30 @@
     margin-bottom: 0;
   }
 }
+
+// =================================
+//   CARD - Match
+// =================================
+
+.card-match {
+  width: 100%;
+  max-width: 350px;
+  
+  &__body {
+    padding-block: 1rem;
+  }
+
+  &__team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.125rem;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
