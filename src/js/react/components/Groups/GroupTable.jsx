@@ -22,16 +22,16 @@ function GroupTable({ group }) {
       <table className="table table-hover group-table__table">
         <thead className="table-light group-table__head">
           <tr>
-            <th scope="col">#</th>
+            <th scope="col" title="Position">#</th>
             <th scope="col">Team</th>
-            <th scope="col">MP</th>
-            <th scope="col">W</th>
-            <th scope="col">D</th>
-            <th scope="col">L</th>
-            <th scope="col">GF</th>
-            <th scope="col">GA</th>
-            <th scope="col">GD</th>
-            <th scope="col">Pts</th>
+            <th scope="col" title="Matches Played">MP</th>
+            <th scope="col" title="Wins">W</th>
+            <th scope="col" title="Draws">D</th>
+            <th scope="col" title="Losses">L</th>
+            <th scope="col" title="Goals For">GF</th>
+            <th scope="col" title="Goals Against">GA</th>
+            <th scope="col" title="Goal Difference">GD</th>
+            <th scope="col" title="Points">Pts</th>
           </tr>
         </thead>
 
