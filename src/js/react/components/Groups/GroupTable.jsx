@@ -22,16 +22,16 @@ function GroupTable({ group }) {
       <table className="table table-hover group-table__table">
         <thead className="table-light group-table__head">
           <tr>
-            <th scope="col" title="Position">#</th>
+            <th scope="col" className="text-center" title="Position">#</th>
             <th scope="col">Team</th>
-            <th scope="col" title="Matches Played">MP</th>
-            <th scope="col" title="Wins">W</th>
-            <th scope="col" title="Draws">D</th>
-            <th scope="col" title="Losses">L</th>
-            <th scope="col" title="Goals For">GF</th>
-            <th scope="col" title="Goals Against">GA</th>
-            <th scope="col" title="Goal Difference">GD</th>
-            <th scope="col" title="Points">Pts</th>
+            <th scope="col" className="text-center" title="Matches Played">MP</th>
+            <th scope="col" className="text-center" title="Wins">W</th>
+            <th scope="col" className="text-center" title="Draws">D</th>
+            <th scope="col" className="text-center" title="Losses">L</th>
+            <th scope="col" className="text-center" title="Goals For">GF</th>
+            <th scope="col" className="text-center" title="Goals Against">GA</th>
+            <th scope="col" className="text-center" title="Goal Difference">GD</th>
+            <th scope="col" className="text-center" title="Points">Pts</th>
           </tr>
         </thead>
 
@@ -54,15 +54,15 @@ function GroupTable({ group }) {
                 </span>
               </th>
 
-              <td>{calcMatchesPlayed(team.W, team.D, team.L)}</td>
-              <td>{team.W}</td>
-              <td>{team.D}</td>
-              <td>{team.L}</td>
-              <td>{team.GF}</td>
-              <td>{team.GA}</td>
-              <td>{calcGoalDifference(team.GF, team.GA)}</td>
+              <td className="text-center">{calcMatchesPlayed(team.W, team.D, team.L)}</td>
+              <td className="text-center">{team.W}</td>
+              <td className="text-center">{team.D}</td>
+              <td className="text-center">{team.L}</td>
+              <td className="text-center">{team.GF}</td>
+              <td className="text-center">{team.GA}</td>
+              <td className="text-center">{calcGoalDifference(team.GF, team.GA)}</td>
 
-              <td>
+              <td className="text-center">
                 <strong>{calcPoints(team.W, team.D)}</strong>
               </td>
             </tr>
