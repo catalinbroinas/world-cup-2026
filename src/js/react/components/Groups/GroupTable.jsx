@@ -44,14 +44,16 @@ function GroupTable({ group }) {
                 <strong>{index + 1}.</strong>
               </td>
 
-              <th scope="row" className="group-table__team">
-                <i
-                  className={`flag flag-${team.flag}`}
-                  aria-hidden="true"
-                ></i>
-                <span className="group-table__team-name">
-                  {team.country}
-                </span>
+              <th scope="row">
+                <div className="group-table__team">
+                  <i
+                    className={`flag flag-${team.flag}`}
+                    aria-hidden="true"
+                  ></i>
+                  <span className="group-table__team-name">
+                    {team.country}
+                  </span>
+                </div>
               </th>
 
               <td className="text-center">{calcMatchesPlayed(team.W, team.D, team.L)}</td>
