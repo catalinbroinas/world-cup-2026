@@ -1,14 +1,20 @@
+// Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
   faCalendarDay
 } from "@fortawesome/free-solid-svg-icons";
 
+// Helpers
+import { formatDate } from "../../../utils/date";
+
 function MatchCard({ match }) {
   const { homeTeam, awayTeam, stadium, date } = match;
 
   const isHomeWinner = homeTeam.result > awayTeam.result;
   const isAwayWinner = awayTeam.result > homeTeam.result;
+
+  const formattedDate = formatDate(date);
 
   return (
     <div className="card card-match">
@@ -50,7 +56,7 @@ function MatchCard({ match }) {
 
         <div className="card-match__meta">
           <FontAwesomeIcon icon={faCalendarDay} />
-          {date}
+          {formattedDate}
         </div>
       </div>
     </div>
