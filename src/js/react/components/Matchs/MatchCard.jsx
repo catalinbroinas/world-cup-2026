@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faCalendarDay
+} from "@fortawesome/free-solid-svg-icons";
 
 function MatchCard({ match }) {
   const { homeTeam, awayTeam, stadium, date } = match;
@@ -39,12 +44,12 @@ function MatchCard({ match }) {
 
       <div className="card-footer card-match__footer">
         <div className="card-match__meta">
-          <i className="fa-solid fa-location-dot"></i>
+          <FontAwesomeIcon icon={faLocationDot} />
           {stadium}
         </div>
 
         <div className="card-match__meta">
-          <i className="fa-solid fa-calendar-day"></i>
+          <FontAwesomeIcon icon={faCalendarDay} />
           {date}
         </div>
       </div>
