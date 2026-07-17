@@ -22,27 +22,27 @@ function MatchCard({ match }) {
         <ul className="list-group list-group-light list-group-small">
           <li className="list-group-item card-match__team">
             <div className="card-match__team-info">
-              <i className={`flag flag-${homeTeam.flag}`}></i>
+              <i className={`flag flag-${homeTeam.flag}`} aria-hidden="true"></i>
               <span className={isHomeWinner ? "card-match__team-winner" : ""}>
                 {homeTeam.name}
               </span>
             </div>
 
             <div className="card-match__team-result">
-              <strong>{homeTeam.result ?? "-"}</strong>
+              {homeTeam.result ?? "-"}
             </div>
           </li>
 
           <li className="list-group-item card-match__team">
             <div className="card-match__team-info">
-              <i className={`flag flag-${awayTeam.flag}`}></i>
+              <i className={`flag flag-${awayTeam.flag}`} aria-hidden="true"></i>
               <span className={isAwayWinner ? "card-match__team-winner" : ""}>
                 {awayTeam.name}
               </span>
             </div>
 
             <div className="card-match__team-result">
-              <strong>{awayTeam.result ?? "-"}</strong>
+              {awayTeam.result ?? "-"}
             </div>
           </li>
         </ul>
