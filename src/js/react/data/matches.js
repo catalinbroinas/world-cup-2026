@@ -19,7 +19,8 @@ export const matches = [
     },
 
     stadium: "Azteca",
-    referee: "Sampaio W."
+    referee: "Sampaio W.",
+    date: "2026-06-11"
   },
   {
     id: crypto.randomUUID(),
@@ -39,7 +40,8 @@ export const matches = [
     },
 
     stadium: "Estadio Akron",
-    referee: "Omar A."
+    referee: "Omar A.",
+    date: "2026-06-12"
   },
 
   // B
@@ -61,7 +63,8 @@ export const matches = [
     },
 
     stadium: "BMO Field",
-    referee: "Tello F"
+    referee: "Tello F",
+    date: "2026-06-12"
   },
   {
     id: crypto.randomUUID(),
@@ -81,6 +84,7 @@ export const matches = [
     },
 
     stadium: "Levi's Stadium",
-    referee: "Martinez S"
+    referee: "Martinez S",
+    date: "2026-06-13"
   },
 ];
