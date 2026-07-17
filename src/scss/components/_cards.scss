@@ -67,7 +67,7 @@
   max-width: 350px;
   
   &__body {
-    padding-block: 1rem;
+    padding: 1rem 1.5rem;
   }
 
   &__team {
@@ -78,9 +78,39 @@
     font-size: 1.125rem;
   }
 
+  &__team-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-weight: 400;
+  }
+
+  &__team-winner {
+    font-weight: 600;
+  }
+
+  &__team-result {
+    font-weight: 700;
+  }
+
   &__footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+
+    background-color: $bg-page;
+    padding: 0.75rem 1.5rem;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: $text-muted;
   }
 }
