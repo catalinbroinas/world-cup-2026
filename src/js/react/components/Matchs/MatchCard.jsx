@@ -10,28 +10,28 @@ function MatchCard({ match }) {
       <div className="card-body card-match__body">
         <ul className="list-group list-group-light list-group-small">
           <li className="list-group-item card-match__team">
-            <div className="card-match__country">
-              <i className={`flag flag-${homeTeam.flag} me-3`}></i>
-              <span className={isHomeWinner ? "fw-bold" : ""}>
+            <div className="card-match__team-info">
+              <i className={`flag flag-${homeTeam.flag}`}></i>
+              <span className={isHomeWinner ? "card-match__team-winner" : ""}>
                 {homeTeam.name}
               </span>
             </div>
 
-            <div className="card-match__result">
+            <div className="card-match__team-result">
               <strong>{homeTeam.result ?? "-"}</strong>
             </div>
           </li>
 
           <li className="list-group-item card-match__team">
-            <div className="card-match__country">
-              <i className={`flag flag-${awayTeam.flag} me-3`}></i>
-              <span className={isAwayWinner ? "fw-bold" : ""}>
+            <div className="card-match__team-info">
+              <i className={`flag flag-${awayTeam.flag}`}></i>
+              <span className={isAwayWinner ? "card-match__team-winner" : ""}>
                 {awayTeam.name}
               </span>
             </div>
 
-            <div className="card-match__result">
-              <strong>{awayTeam.result ?? ""}</strong>
+            <div className="card-match__team-result">
+              <strong>{awayTeam.result ?? "-"}</strong>
             </div>
           </li>
         </ul>
@@ -39,12 +39,12 @@ function MatchCard({ match }) {
 
       <div className="card-footer card-match__footer">
         <div className="card-match__meta">
-          <i className="fa-solid fa-location-dot me-2"></i>
+          <i className="fa-solid fa-location-dot"></i>
           {stadium}
         </div>
 
         <div className="card-match__meta">
-          <i className="fa-solid fa-calendar-day me-2"></i>
+          <i className="fa-solid fa-calendar-day"></i>
           {date}
         </div>
       </div>
