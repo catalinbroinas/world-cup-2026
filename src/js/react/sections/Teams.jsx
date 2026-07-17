@@ -1,6 +1,6 @@
 import TeamGrid from "../components/Teams/TeamGrid";
 
-import { teams } from "../data/teams";
+import { teams } from "../../data/teams";
 
 function Teams() {
   return (

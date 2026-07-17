@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 // Data
-import { groups } from "../data/groups";
-import { matches } from "../data/matches";
+import { groups } from "../../data/groups";
+import { matches } from "../../data/matches";
 
 // Components
 import GroupTabs from "../components/Groups/GroupTabs";
