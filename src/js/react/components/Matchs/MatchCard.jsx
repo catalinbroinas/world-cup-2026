@@ -50,12 +50,18 @@ function MatchCard({ match }) {
 
       <div className="card-footer card-match__footer">
         <div className="card-match__meta">
-          <FontAwesomeIcon icon={faLocationDot} />
+          <FontAwesomeIcon
+            icon={faLocationDot}
+            className="card-match__meta-icon"
+          />
           {stadium}
         </div>
 
         <div className="card-match__meta">
-          <FontAwesomeIcon icon={faCalendarDay} />
+          <FontAwesomeIcon
+            icon={faCalendarDay}
+            className="card-match__meta-icon"
+          />
           {formattedDate}
         </div>
       </div>

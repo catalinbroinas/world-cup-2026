@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use '../base' as *;
 
 // =================================
@@ -65,6 +66,8 @@
 .card-match {
   width: 100%;
   max-width: 350px;
+
+  border-radius: 1rem;
   
   &__body {
     padding: 1rem 1.5rem;
@@ -112,5 +115,9 @@
     font-size: 1rem;
     font-weight: 400;
     color: $text-muted;
+  }
+
+  &__meta-icon {
+    color: color.scale($text-muted, $lightness: 15%);
   }
 }
