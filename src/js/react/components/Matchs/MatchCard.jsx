@@ -1,6 +1,6 @@
 
 function MatchCard({ match }) {
-  const { homeTeam, awayTeam, stadium, referee } = match;
+  const { homeTeam, awayTeam, stadium, date } = match;
 
   const isHomeWinner = homeTeam.result > awayTeam.result;
   const isAwayWinner = awayTeam.result > homeTeam.result;
@@ -44,8 +44,8 @@ function MatchCard({ match }) {
         </div>
 
         <div className="card-match__meta">
-          <i className="fa-solid fa-user-tie me-2"></i>
-          {referee}
+          <i className="fa-solid fa-calendar-day me-2"></i>
+          {date}
         </div>
       </div>
     </div>
