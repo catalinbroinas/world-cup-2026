@@ -1,7 +1,8 @@
 import {
   QUALIFIED_PLACES,
   PLAYOFF_PLACE,
-  PLACE_STATUS
+  PLACE_STATUS,
+  GROUP_MATCH_DAYS
 } from "../constants/groups";
 
 export const getPlaceStatus = (place) => {
@@ -31,3 +32,21 @@ const compareTeams = (teamA, teamB) => {
 };
 
 export const getGroupStanding = (teams) => [...teams].sort(compareTeams);
+
+export const getGroup = (groups, activeGroupId) => (
+  groups.find(group => group.id === activeGroupId)
+);
+
+export const getGroupMatches = (matches, activeGroupId) => (
+  matches.filter((match) => match.groupId === activeGroupId)
+);
+
+export const getGroupMatchDays = (groupMatches) => (
+  GROUP_MATCH_DAYS.map((round) => (
+    {
+      id: round,
+      title: `Match day ${round}`,
+      matches: groupMatches.filter((match) => match.round === round)
+    }
+  )).filter((matchDay) => matchDay.matches.length > 0)
+);
