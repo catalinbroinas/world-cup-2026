@@ -19,6 +19,8 @@ function Groups() {
   const groupMatches = matches.filter((match) => match.groupId === activeGroupId);
 
   const matchDay1 = groupMatches.filter((match) => match.round === 1);
+  const matchDay2 = groupMatches.filter((match) => match.round === 2);
+  const matchDay3 = groupMatches.filter((match) => match.round === 3);
 
   return (
     <div className="groups-content">
@@ -40,8 +42,22 @@ function Groups() {
         <section className="group-matches__round">
           <h3 className="subtitle mb-0">Match day 1</h3>
           <hr className="hr mt-2 mb-4" />
-          
+
           <MatchGrid matches={matchDay1} />
+        </section>
+
+        <section className="group-matches__round">
+          <h3 className="subtitle mb-0">Match day 2</h3>
+          <hr className="hr mt-2 mb-4" />
+
+          <MatchGrid matches={matchDay2} />
+        </section>
+
+        <section className="group-matches__round">
+          <h3 className="subtitle mb-0">Match day 3</h3>
+          <hr className="hr mt-2 mb-4" />
+
+          <MatchGrid matches={matchDay3} />
         </section>
       </section>
     </div>
