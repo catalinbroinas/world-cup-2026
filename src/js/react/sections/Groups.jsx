@@ -4,6 +4,9 @@ import { useState } from "react";
 import { groups } from "../../data/groups";
 import { matches } from "../../data/matches";
 
+// Constants
+import { GROUP_MATCH_DAYS } from "../../constants/groups";
+
 // Components
 import GroupTabs from "../components/Groups/GroupTabs";
 import GroupTable from "../components/Groups/GroupTable";
@@ -18,7 +21,7 @@ function Groups() {
 
   const groupMatches = matches.filter((match) => match.groupId === activeGroupId);
 
-  const matchDays = [1, 2, 3].map((round) => (
+  const matchDays = GROUP_MATCH_DAYS.map((round) => (
     {
       id: round,
       title: `Match day ${round}`,

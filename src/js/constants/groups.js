@@ -13,3 +13,5 @@ export const PLACE_CLASS = {
   playoff: "group-table__place--playoff",
   eliminated: ""
 };
+
+export const GROUP_MATCH_DAYS = [1, 2, 3];
