@@ -44,6 +44,92 @@ export const matches = [
     date: "2026-06-12"
   },
 
+  {
+    id: crypto.randomUUID(),
+    groupId: "A",
+    round: 2,
+
+    homeTeam: {
+      name: "Czech Republic",
+      flag: "czech-republic",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "South Africa",
+      flag: "south-africa",
+      result: 1
+    },
+
+    stadium: "Mercedes-Benz",
+    referee: "Penso T.",
+    date: "2026-06-18"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "A",
+    round: 2,
+
+    homeTeam: {
+      name: "Mexico",
+      flag: "mexico",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "South Korea",
+      flag: "south-korea",
+      result: 0
+    },
+
+    stadium: "Estadio Akron",
+    referee: "Tejera G.",
+    date: "2026-06-19"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "A",
+    round: 3,
+
+    homeTeam: {
+      name: "Czech Republic",
+      flag: "czech-republic",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Mexico",
+      flag: "mexico",
+      result: 3
+    },
+
+    stadium: "Azteca",
+    referee: "Perez Y.",
+    date: "2026-06-25"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "A",
+    round: 3,
+
+    homeTeam: {
+      name: "South Africa",
+      flag: "south-africa",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "South Korea",
+      flag: "south-korea",
+      result: 0
+    },
+
+    stadium: "Estadio BBVA",
+    referee: "Tello F.",
+    date: "2026-06-25"
+  },
+
   // B
   {
     id: crypto.randomUUID(),
