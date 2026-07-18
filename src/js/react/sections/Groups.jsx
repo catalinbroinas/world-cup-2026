@@ -18,9 +18,13 @@ function Groups() {
 
   const groupMatches = matches.filter((match) => match.groupId === activeGroupId);
 
-  const matchDay1 = groupMatches.filter((match) => match.round === 1);
-  const matchDay2 = groupMatches.filter((match) => match.round === 2);
-  const matchDay3 = groupMatches.filter((match) => match.round === 3);
+  const matchDays = [1, 2, 3].map((round) => (
+    {
+      id: round,
+      title: `Match day ${round}`,
+      matches: groupMatches.filter((match) => match.round === round)
+    }
+  )).filter((matchDay) => matchDay.matches.length > 0);
 
   return (
     <div className="groups-content">
@@ -36,29 +40,16 @@ function Groups() {
         <GroupTable group={selectedGroup} />
       </section>
 
-      {groupMatches.length > 0 && <section className="group-matches">
+      {matchDays.length > 0 && <section className="group-matches">
         <h2 className="visually-hidden">Group matches</h2>
 
-        {matchDay1.length > 0 && <section className="group-matches__round">
-          <h3 className="subtitle mb-0">Match day 1</h3>
-          <hr className="hr mt-2 mb-4" />
-
-          <MatchGrid matches={matchDay1} />
-        </section>}
-
-        {matchDay2.length > 0 && <section className="group-matches__round">
-          <h3 className="subtitle mb-0">Match day 2</h3>
-          <hr className="hr mt-2 mb-4" />
-
-          <MatchGrid matches={matchDay2} />
-        </section>}
-
-        {matchDay3.length > 0 && <section className="group-matches__round">
-          <h3 className="subtitle mb-0">Match day 3</h3>
-          <hr className="hr mt-2 mb-4" />
-
-          <MatchGrid matches={matchDay3} />
-        </section>}
+        {matchDays.map((matchDay) => (
+            <section key={matchDay.id} className="group-matches__round">
+              <h3 className="subtitle mb-0">{matchDay.title}</h3>
+              <hr className="hr mt-2 mb-4" />
+              <MatchGrid matches={matchDay.matches} />
+            </section>
+        ))}
       </section>}
     </div>
   );
