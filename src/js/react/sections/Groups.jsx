@@ -36,30 +36,30 @@ function Groups() {
         <GroupTable group={selectedGroup} />
       </section>
 
-      <section className="group-matches">
+      {groupMatches.length > 0 && <section className="group-matches">
         <h2 className="visually-hidden">Group matches</h2>
 
-        <section className="group-matches__round">
+        {matchDay1.length > 0 && <section className="group-matches__round">
           <h3 className="subtitle mb-0">Match day 1</h3>
           <hr className="hr mt-2 mb-4" />
 
           <MatchGrid matches={matchDay1} />
-        </section>
+        </section>}
 
-        <section className="group-matches__round">
+        {matchDay2.length > 0 && <section className="group-matches__round">
           <h3 className="subtitle mb-0">Match day 2</h3>
           <hr className="hr mt-2 mb-4" />
 
           <MatchGrid matches={matchDay2} />
-        </section>
+        </section>}
 
-        <section className="group-matches__round">
+        {matchDay3.length > 0 && <section className="group-matches__round">
           <h3 className="subtitle mb-0">Match day 3</h3>
           <hr className="hr mt-2 mb-4" />
 
           <MatchGrid matches={matchDay3} />
-        </section>
-      </section>
+        </section>}
+      </section>}
     </div>
   );
 }
