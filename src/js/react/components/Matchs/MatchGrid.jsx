@@ -2,11 +2,13 @@ import MatchCard from "./MatchCard";
 
 function MatchGrid({ matches }) {
   return (
-    <div className="row gx-xl-5 gx-4 gy-5">
+    <div
+      className="row row-cols-lg-3 row-cols-sm-2 row-cols-1 gx-xl-5 gx-4 gy-5"
+    >
       {matches.map((match) => (
         <div
           key={match.id}
-          className="col-xxl-4 col-lg-5 col-md-6 col-sm-8 col-10"
+          className="col"
         >
           <MatchCard match={match} />
         </div>
