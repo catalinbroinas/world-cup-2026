@@ -34,9 +34,7 @@ const compareTeams = (teamA, teamB) => {
 export const getGroupTabs = (groups) => (
   groups.map((group) => ({
     id: group.id,
-    label: group.id === "third-places"
-      ? "3rd"
-      : group.id
+    label: group.shortNme || group.id
   }))
 );
 
@@ -49,6 +47,7 @@ export const getGroup = (groups, activeGroupId) => (
 const getThirdPlaceGroup = (groups) => ({
   id: "third-places",
   name: "Third-Placed Teams",
+  shortNme: "3rd",
   teams: groups.map((group) => getGroupStanding(group.teams)[2])
 });
 
