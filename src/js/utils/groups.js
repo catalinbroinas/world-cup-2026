@@ -31,18 +31,31 @@ const compareTeams = (teamA, teamB) => {
   return points || goalDifference || goalsScored;
 };
 
-export const getGroupTabs = (groups) => [
-  ...groups.map((group) => ({
+export const getGroupTabs = (groups) => (
+  groups.map((group) => ({
     id: group.id,
-    label: group.id
+    label: group.id === "third-places"
+      ? "3rd"
+      : group.id
   }))
-];
+);
 
 export const getGroupStanding = (teams) => [...teams].sort(compareTeams);
 
 export const getGroup = (groups, activeGroupId) => (
   groups.find(group => group.id === activeGroupId)
 );
+
+const getThirdPlaceGroup = (groups) => ({
+  id: "third-places",
+  name: "Third-Placed Teams",
+  teams: groups.map((group) => getGroupStanding(group.teams)[2])
+});
+
+export const getDisplayGroups = (groups) => [
+  ...groups,
+  getThirdPlaceGroup(groups)
+];
 
 export const getGroupMatches = (matches, activeGroupId) => (
   matches.filter((match) => match.groupId === activeGroupId)

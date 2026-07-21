@@ -12,7 +12,8 @@ import {
   getGroup,
   getGroupMatches,
   getGroupMatchDays,
-  getGroupTabs
+  getGroupTabs,
+  getDisplayGroups
 } from "../../utils/groups";
 
 // Components
@@ -21,11 +22,13 @@ import GroupTable from "../components/Groups/GroupTable";
 import MatchGrid from "../components/Matchs/MatchGrid";
 
 function Groups() {
-  const [activeGroupId, setActiveGroupId] = useState(groups[0].id);
+  const displayGroups = getDisplayGroups(groups);
 
-  const tabs = getGroupTabs(groups);
+  const [activeGroupId, setActiveGroupId] = useState(displayGroups[0].id);
 
-  const selectedGroup = getGroup(groups, activeGroupId);
+  const tabs = getGroupTabs(displayGroups);
+
+  const selectedGroup = getGroup(displayGroups, activeGroupId);
   const groupMatches = getGroupMatches(matches, activeGroupId);
   const groupMatchDays = getGroupMatchDays(groupMatches);
 
