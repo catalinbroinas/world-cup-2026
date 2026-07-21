@@ -11,7 +11,8 @@ import { GROUP_MATCH_DAYS } from "../../constants/groups";
 import {
   getGroup,
   getGroupMatches,
-  getGroupMatchDays
+  getGroupMatchDays,
+  getGroupTabs
 } from "../../utils/groups";
 
 // Components
@@ -22,6 +23,8 @@ import MatchGrid from "../components/Matchs/MatchGrid";
 function Groups() {
   const [activeGroupId, setActiveGroupId] = useState(groups[0].id);
 
+  const tabs = getGroupTabs(groups);
+
   const selectedGroup = getGroup(groups, activeGroupId);
   const groupMatches = getGroupMatches(matches, activeGroupId);
   const groupMatchDays = getGroupMatchDays(groupMatches);
@@ -30,7 +33,7 @@ function Groups() {
     <div className="groups-content">
       <nav className="group-navigation" aria-label="Groups navigation">
         <GroupTabs
-          groups={groups}
+          tabs={tabs}
           activeTab={activeGroupId}
           onTabChange={setActiveGroupId}
         />

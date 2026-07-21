@@ -31,6 +31,13 @@ const compareTeams = (teamA, teamB) => {
   return points || goalDifference || goalsScored;
 };
 
+export const getGroupTabs = (groups) => [
+  ...groups.map((group) => ({
+    id: group.id,
+    label: group.id
+  }))
+];
+
 export const getGroupStanding = (teams) => [...teams].sort(compareTeams);
 
 export const getGroup = (groups, activeGroupId) => (

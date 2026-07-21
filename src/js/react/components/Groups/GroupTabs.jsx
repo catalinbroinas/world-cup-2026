@@ -1,23 +1,23 @@
 
-function GroupTabs({ groups, activeTab, onTabChange }) {
+function GroupTabs({ tabs, activeTab, onTabChange }) {
   return (
     <ul className="nav nav-tabs nav-fill group-tabs" role="tablist">
-      {groups.map((group) => (
+      {tabs.map((tab) => (
         <li
-          key={group.id}
+          key={tab.id}
           className="nav-item group-tabs__item"
           role="presentation"
         >
           <button
             type="button"
             role="tab"
-            aria-selected={group.id === activeTab}
+            aria-selected={tab.id === activeTab}
             className={`group-tabs__link${
-              group.id === activeTab ? " active" : ""
+              tab.id === activeTab ? " active" : ""
             }`}
-            onClick={() => onTabChange(group.id)}
+            onClick={() => onTabChange(tab.id)}
           >
-            {group.id}
+            {tab.label}
           </button>
         </li>
       ))}
