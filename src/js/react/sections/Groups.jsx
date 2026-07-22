@@ -17,7 +17,7 @@ import {
 } from "../../utils/groups";
 
 // Components
-import GroupTabs from "../components/Groups/GroupTabs";
+import Tabs from "../components/Navigation/Tabs";
 import GroupTable from "../components/Groups/GroupTable";
 import MatchGrid from "../components/Matchs/MatchGrid";
 
@@ -35,7 +35,7 @@ function Groups() {
   return (
     <div className="groups-content">
       <nav className="group-navigation" aria-label="Groups navigation">
-        <GroupTabs
+        <Tabs
           tabs={tabs}
           activeTab={activeGroupId}
           onTabChange={setActiveGroupId}
