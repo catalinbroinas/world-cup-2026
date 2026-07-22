@@ -15,6 +15,10 @@ function GroupTable({ group }) {
 
   const standing = getGroupStanding(teams);
 
+  const qualification = standing.length > 4
+    ? { qualifiedPlaces: 8, playoffPlaces: 0 }
+    : {};
+
   return (
     <div className="table-responsive group-table">
       <h3 className="group-table__title">{name}</h3>
@@ -40,7 +44,9 @@ function GroupTable({ group }) {
             <tr
               key={team.id}
             >
-              <td className={`group-table__place ${PLACE_CLASS[getPlaceStatus(index + 1)]}`}>
+              <td className={`group-table__place ${
+                PLACE_CLASS[getPlaceStatus(index + 1, qualification)]
+              }`}>
                 <strong>{index + 1}.</strong>
               </td>
 

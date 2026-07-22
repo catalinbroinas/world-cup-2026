@@ -5,12 +5,18 @@ import {
   GROUP_MATCH_DAYS
 } from "../constants/groups";
 
-export const getPlaceStatus = (place) => {
-  if (place <= QUALIFIED_PLACES) {
+export const getPlaceStatus = (
+  place,
+  {
+    qualifiedPlaces = QUALIFIED_PLACES,
+    playoffPlace = PLAYOFF_PLACE
+  } = {}
+) => {
+  if (place <= qualifiedPlaces) {
     return PLACE_STATUS.QUALIFIED;
   }
 
-  if (place === PLAYOFF_PLACE) {
+  if (place === playoffPlace) {
     return PLACE_STATUS.PLAYOFF;
   }
 
