@@ -11,6 +11,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { NavbarManager } from './modules/dom/navbar';
 
 // React
+import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // Components
@@ -32,15 +33,27 @@ function AppManager() {
     const knockoutStage = document.querySelector('#knockout-stage-root');
 
     if (teams) {
-      createRoot(teams).render(<Teams />);
+      createRoot(teams).render(
+        <StrictMode>
+          <Teams />
+        </StrictMode>
+      );
     }
 
     if (groups) {
-      createRoot(groups).render(<Groups />);
+      createRoot(groups).render(
+        <StrictMode>
+          <Groups />
+        </StrictMode>
+      );
     }
 
     if (knockoutStage) {
-      createRoot(knockoutStage).render(<KnockoutStage />);
+      createRoot(knockoutStage).render(
+        <StrictMode>
+          <KnockoutStage />
+        </StrictMode>
+      );
     }
   };
 
