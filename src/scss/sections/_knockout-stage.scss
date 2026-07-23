@@ -1,0 +1,11 @@
+@use '../base/' as *;
+
+// =================================
+//   GROUPS
+// =================================
+
+.knockout-stage-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
