@@ -14,7 +14,7 @@ import {
 
 // Components
 import Tabs from "../components/Navigation/Tabs";
-import MatchGrid from "../components/Matchs/MatchGrid";
+import MatchGrid from "../components/Matches/MatchGrid";
 
 function KnockoutStage() {
   const stageTabs = getKnockoutStageTabs(KNOCKOUT_STAGE);

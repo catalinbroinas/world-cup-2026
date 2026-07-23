@@ -19,7 +19,7 @@ import {
 // Components
 import Tabs from "../components/Navigation/Tabs";
 import GroupTable from "../components/Groups/GroupTable";
-import MatchGrid from "../components/Matchs/MatchGrid";
+import MatchGrid from "../components/Matches/MatchGrid";
 
 function Groups() {
   const displayGroups = getDisplayGroups(groups);
