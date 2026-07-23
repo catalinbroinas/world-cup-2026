@@ -5,3 +5,7 @@ export const getKnockoutStageTabs = (stages) => (
     label: stage.label
   }))
 );
+
+export const getKnockoutMatches = (matches, stage) => (
+  matches.filter((match) => match.stage === stage)
+);
