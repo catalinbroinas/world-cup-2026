@@ -4,7 +4,7 @@ export const knockoutMatches = [
   // Round of 32
   {
     id: crypto.randomUUID(),
-    stage: KNOCKOUT_STAGE.ROUND_OF_32,
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
 
     homeTeam: {
       name: "South Africa",
@@ -27,7 +27,7 @@ export const knockoutMatches = [
   },
   {
     id: crypto.randomUUID(),
-    stage: KNOCKOUT_STAGE.ROUND_OF_32,
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
 
     homeTeam: {
       name: "Brazil",
@@ -50,7 +50,7 @@ export const knockoutMatches = [
   },
   {
     id: crypto.randomUUID(),
-    stage: KNOCKOUT_STAGE.ROUND_OF_32,
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
 
     homeTeam: {
       name: "Germany",
@@ -80,7 +80,7 @@ export const knockoutMatches = [
 
   {
     id: crypto.randomUUID(),
-    stage: KNOCKOUT_STAGE.ROUND_OF_32,
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
 
     homeTeam: {
       name: "Belgium",
