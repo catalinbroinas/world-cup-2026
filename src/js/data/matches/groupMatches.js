@@ -1,5 +1,5 @@
 
-export const matches = [
+export const groupMatches = [
   // A
   {
     id: crypto.randomUUID(),

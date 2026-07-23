@@ -2,7 +2,7 @@ import { useState } from "react";
 
 // Data
 import { groups } from "../../data/groups";
-import { matches } from "../../data/matches";
+import { groupMatches as matches } from "../../data/matches/groupMatches";
 
 // Constants
 import { GROUP_MATCH_DAYS } from "../../constants/groups";
