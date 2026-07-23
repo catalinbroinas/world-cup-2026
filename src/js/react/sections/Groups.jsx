@@ -2,7 +2,7 @@ import { useState } from "react";
 
 // Data
 import { groups } from "../../data/groups";
-import { groupMatches as matches } from "../../data/matches/groupMatches";
+import { groupMatches } from "../../data/matches/groupMatches";
 
 // Constants
 import { GROUP_MATCH_DAYS } from "../../constants/groups";
@@ -29,8 +29,8 @@ function Groups() {
   const tabs = getGroupTabs(displayGroups);
 
   const selectedGroup = getGroup(displayGroups, activeGroupId);
-  const groupMatches = getGroupMatches(matches, activeGroupId);
-  const groupMatchDays = getGroupMatchDays(groupMatches);
+  const matches = getGroupMatches(groupMatches, activeGroupId);
+  const matchDays = getGroupMatchDays(matches);
 
   return (
     <div className="groups-content">
@@ -46,10 +46,10 @@ function Groups() {
         <GroupTable group={selectedGroup} />
       </section>
 
-      {groupMatchDays.length > 0 && <section className="group-matches">
+      {matchDays.length > 0 && <section className="group-matches">
         <h2 className="visually-hidden">Group matches</h2>
 
-        {groupMatchDays.map((matchDay) => (
+        {matchDays.map((matchDay) => (
             <section key={matchDay.id} className="group-matches__round">
               <h3 className="subtitle mb-0">{matchDay.title}</h3>
               <hr className="hr mt-2 mb-4" />
