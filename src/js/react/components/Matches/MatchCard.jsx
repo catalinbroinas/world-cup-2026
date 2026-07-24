@@ -69,6 +69,12 @@ function MatchCard({ match }) {
               {awayResultText}
             </div>
           </li>
+
+          {extraTime != null &&<div className="card-match__status">
+            <span className="card-match__status-badge">
+              {penalties != null ? "PEN" : "ET"}
+            </span>
+          </div>}
         </ul>
       </div>
 

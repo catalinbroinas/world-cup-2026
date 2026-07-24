@@ -70,10 +70,14 @@
   border-radius: 1rem;
   
   &__body {
+    position: relative;
+
     padding: 1rem 1.5rem;
   }
 
   &__team {
+    position: relative;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,6 +99,22 @@
 
   &__team-result {
     font-weight: 700;
+  }
+
+  &__status {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4rem;
+  }
+
+  &__status-badge {
+    background-color: $bg-accent;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+
+    font-size: 0.875rem;
+    color: $text-accent;
   }
 
   &__footer {
