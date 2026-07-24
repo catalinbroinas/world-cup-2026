@@ -9,10 +9,34 @@ import {
 import { formatDate } from "../../../utils/date";
 
 function MatchCard({ match }) {
-  const { homeTeam, awayTeam, stadium, date } = match;
+  const {
+    homeTeam,
+    awayTeam,
+    stadium,
+    date,
+    extraTime,
+    penalties,
+  } = match;
 
-  const isHomeWinner = homeTeam.result > awayTeam.result;
-  const isAwayWinner = awayTeam.result > homeTeam.result;
+  const homeScore = extraTime?.homeResult ?? homeTeam.result;
+  const awayScore = extraTime?.awayResult ?? awayTeam.result;
+
+  const homePenalty = penalties?.homeResult;
+  const awayPenalty = penalties?.awayResult;
+
+  const homeResult = homePenalty ?? homeScore;
+  const awayResult = awayPenalty ?? awayScore;
+
+  const homeResultText = homePenalty != null
+    ? `${homeScore} (${homePenalty})`
+    : homeScore ?? "-";
+
+  const awayResultText = awayPenalty != null
+    ? `${awayScore} (${awayPenalty})`
+    : awayScore ?? "-";
+
+  const isHomeWinner = homeResult > awayResult;
+  const isAwayWinner = awayResult > homeResult;
 
   const formattedDate = formatDate(date);
 
@@ -29,7 +53,7 @@ function MatchCard({ match }) {
             </div>
 
             <div className="card-match__team-result">
-              {homeTeam.result ?? "-"}
+              {homeResultText}
             </div>
           </li>
 
@@ -42,7 +66,7 @@ function MatchCard({ match }) {
             </div>
 
             <div className="card-match__team-result">
-              {awayTeam.result ?? "-"}
+              {awayResultText}
             </div>
           </li>
         </ul>
