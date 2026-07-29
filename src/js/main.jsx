@@ -18,6 +18,7 @@ import { createRoot } from 'react-dom/client';
 import Teams from './react/sections/Teams';
 import Groups from './react/sections/Groups';
 import KnockoutStage from './react/sections/KnockoutStage';
+import Stadiums from './react/sections/Stadiums';
 
 function AppManager() {
   const addEvents = () => {
@@ -31,6 +32,7 @@ function AppManager() {
     const teams = document.querySelector('#teams-root');
     const groups = document.querySelector('#groups-root');
     const knockoutStage = document.querySelector('#knockout-stage-root');
+    const stadiums = document.querySelector('#stadiums-root');
 
     if (teams) {
       createRoot(teams).render(
@@ -52,6 +54,14 @@ function AppManager() {
       createRoot(knockoutStage).render(
         <StrictMode>
           <KnockoutStage />
+        </StrictMode>
+      );
+    }
+
+    if (stadiums) {
+      createRoot(stadiums).render(
+        <StrictMode>
+          <Stadiums />
         </StrictMode>
       );
     }
