@@ -141,3 +141,52 @@
     color: color.scale($text-muted, $lightness: 15%);
   }
 }
+
+// =================================
+//   CARD - Stadium
+// =================================
+
+.card-stadium {
+  display: flex;
+  justify-content: center;
+  
+  &__image {
+    z-index: 1;
+    flex-grow: 1;
+  }
+
+  &__image-img {
+    border-radius: 1rem;
+  }
+
+  &__card {
+    z-index: 2;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 230px;
+    align-self: center;
+    transform: translateX(-35%);
+  }
+
+  &__card-title {
+    @include subtitle($size: 1.35rem, $color: $text-primary);
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 1rem;
+  }
+
+  &__text {
+    color: $text-secondary;
+  }
+
+  &__icon {
+    color: color.scale($text-secondary, $lightness: 15%);
+  }
+}
