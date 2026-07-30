@@ -5,15 +5,16 @@ import {
   faFutbol
 } from "@fortawesome/free-solid-svg-icons";
 
-import akronImg from "../../../../assets/images/stadiums/akron.webp";
+function StadiumCard({ stadium }) {
+  const { imageUrl, name, location, capacity, matches } = stadium;
 
-function StadiumCard() {
   return (
-    <div className="card-stadium">
+    <article className="card-stadium">
       <div className="card-stadium__image">
         <img
-          src={akronImg}
-          alt="Akron stadium"
+          src={imageUrl}
+          loading="lazy"
+          alt={`Photo of ${name}`}
           className="img-fluid card-stadium__image-img"
         />
       </div>
@@ -21,7 +22,7 @@ function StadiumCard() {
       <div className="card card-stadium__card">
         <div className="card-body card-stadium__card-body">
           <h3 className="card-stadium__card-title">
-            Estadio Akron
+            {name}
           </h3>
 
           <ul className="list-group list-group-light list-group-small card-stadium__list">
@@ -29,9 +30,11 @@ function StadiumCard() {
               <FontAwesomeIcon
                 icon={faLocationDot}
                 className="card-stadium__icon"
+                aria-label="Location:"
               />
+
               <span className="card-stadium__text">
-                Guadalajara, Mexico
+                {location}
               </span>
             </li>
 
@@ -39,9 +42,11 @@ function StadiumCard() {
                 <FontAwesomeIcon
                 icon={faUsers}
                 className="card-stadium__icon"
+                aria-label="Capacity:"
               />
+
               <span className="card-stadium__text">
-                45.664
+                {`${capacity} spectators`}
               </span>
             </li>
 
@@ -49,15 +54,17 @@ function StadiumCard() {
               <FontAwesomeIcon
                 icon={faFutbol}
                 className="card-stadium__icon"
+                aria-label="Matches hosted:"
               />
+
               <span className="card-stadium__text">
-                4
+                {`${matches} matches`}
               </span>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 
