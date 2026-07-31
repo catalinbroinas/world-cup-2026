@@ -168,6 +168,10 @@
     transform: translateX(-35%);
   }
 
+  &__card-body {
+    padding: 1.5rem 1.5rem 1rem;
+  }
+
   &__card-title {
     @include subtitle($size: 1.35rem, $color: $text-primary);
     letter-spacing: 0.5px;
