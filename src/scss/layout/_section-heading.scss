@@ -1,0 +1,20 @@
+@use '../base/' as *;
+
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  margin-bottom: 3rem;
+
+  &__title {
+    @include title();
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  &__hr {
+    margin: 0;
+  }
+}
