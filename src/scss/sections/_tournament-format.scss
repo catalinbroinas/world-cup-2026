@@ -1,0 +1,37 @@
+@use 'sass:color';
+@use '../base/' as *;
+
+// =================================
+//   TOURNAMENT FORMAT
+// =================================
+
+.tournament-format {
+  &__title {
+    @include subtitle();
+    margin-bottom: 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.75rem;
+
+    padding: 0.5rem 1rem;
+  }
+
+  &__item-icon {
+    font-size: 1rem;
+    color: color.scale($text-secondary, $lightness: 15%);
+  }
+
+  &__item-text {
+    @include text();
+  }
+}
