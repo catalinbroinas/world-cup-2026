@@ -201,7 +201,12 @@
     justify-content: flex-start;
 
     &__card {
+      max-width: 260px;
       transform: translate(0, -35%);
+    }
+
+    &__card-body {
+      padding: 1.25rem 1.5rem 0.75rem;
     }
   }
 }
