@@ -151,8 +151,9 @@
   justify-content: center;
   
   &__image {
+    width: 100%;
+    max-width: 500px;
     z-index: 1;
-    flex-grow: 1;
   }
 
   &__image-img {
