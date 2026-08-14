@@ -194,6 +194,16 @@
   &__icon {
     color: color.scale($text-secondary, $lightness: 15%);
   }
+
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    &__card {
+      transform: translate(0, -35%);
+    }
+  }
 }
 
 // =================================
