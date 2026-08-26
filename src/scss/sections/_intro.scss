@@ -171,9 +171,7 @@
     }
 
     &__list {
-      flex-direction: column;
       gap: 2rem;
-      margin: 0;
     }
 
     &__item {
@@ -202,7 +200,9 @@
     }
 
     &__list {
+      flex-direction: column;
       gap: 1.75rem;
+      margin: 0;
     }
 
     &__item-value {
