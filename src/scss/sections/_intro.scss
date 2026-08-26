@@ -124,6 +124,38 @@
     }
   }
 
+  @media (orientation: landscape) and (max-width: 991.98px) {
+    height: 130vh;
+    height: 130svh;
+
+    &__hr {
+      display: none;
+    }
+
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__subtitle {
+      font-size: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    &__item {
+      width: 140px;
+      padding-block: 0.75rem;
+    }
+
+    &__item-value {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    &__item-label {
+      font-size: 1.25rem;
+    }
+  }
+
   @include media-breakpoint-down(md) {
     &__hr {
       display: none;
