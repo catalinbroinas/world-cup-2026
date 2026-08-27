@@ -88,6 +88,24 @@
       display: none;
     }
   }
+
+  @include media-breakpoint-down(md) {
+    &__goals-difference {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    &__wins,
+    &__draws,
+    &__losses {
+      display: none;
+    }
+
+    &__goals-difference {
+      display: table-cell;
+    }
+  }
 }
 
 // =================================
