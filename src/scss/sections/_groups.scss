@@ -112,6 +112,11 @@
     padding-inline: 0;
     border-radius: 0;
 
+    &__title {
+      font-size: 1.35rem;
+      margin-bottom: 0.75rem;
+    }
+
     &__head {
       th {
         padding: 8px 12px;
