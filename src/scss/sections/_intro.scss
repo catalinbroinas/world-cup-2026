@@ -224,9 +224,11 @@
   height: 40vh;
   height: 40svh;
 
-  padding-block: 10rem;
-
   background-attachment: scroll;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 440px;
+  }
 
   .intro__title {
     text-transform: uppercase;
