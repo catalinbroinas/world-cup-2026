@@ -32,8 +32,19 @@ function GroupTable({ group }) {
             <th scope="col" className="text-center" title="Wins">W</th>
             <th scope="col" className="text-center" title="Draws">D</th>
             <th scope="col" className="text-center" title="Losses">L</th>
-            <th scope="col" className="text-center" title="Goals For">GF</th>
-            <th scope="col" className="text-center" title="Goals Against">GA</th>
+
+            <th
+              scope="col"
+              className="text-center group-table__goals-for"
+              title="Goals For"
+            >GF</th>
+
+            <th
+              scope="col"
+              className="text-center group-table__goals-against"
+              title="Goals Against"
+            >GA</th>
+
             <th scope="col" className="text-center" title="Goal Difference">GD</th>
             <th scope="col" className="text-center" title="Points">Pts</th>
           </tr>
@@ -66,8 +77,8 @@ function GroupTable({ group }) {
               <td className="text-center">{team.W}</td>
               <td className="text-center">{team.D}</td>
               <td className="text-center">{team.L}</td>
-              <td className="text-center">{team.GF}</td>
-              <td className="text-center">{team.GA}</td>
+              <td className="text-center group-table__goals-for">{team.GF}</td>
+              <td className="text-center group-table__goals-against">{team.GA}</td>
               <td className="text-center">{calcGoalDifference(team.GF, team.GA)}</td>
 
               <td className="text-center">

@@ -81,6 +81,13 @@
     color: $text-primary;
     font-weight: 600;
   }
+
+  @include media-breakpoint-down(lg) {
+    &__goals-for,
+    &__goals-against {
+      display: none;
+    }
+  }
 }
 
 // =================================
