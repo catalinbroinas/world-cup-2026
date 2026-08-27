@@ -90,6 +90,19 @@
   }
 
   @include media-breakpoint-down(md) {
+    &__head {
+      th {
+        padding: 12px 16px;
+      }
+    }
+
+    &__body {
+      th,
+      td {
+        padding: 12px 16px;
+      }
+    }
+
     &__goals-difference {
       display: none;
     }
@@ -98,6 +111,19 @@
   @include media-breakpoint-down(sm) {
     padding-inline: 0;
     border-radius: 0;
+
+    &__head {
+      th {
+        padding: 8px 12px;
+      }
+    }
+
+    &__body {
+      th,
+      td {
+        padding: 8px 12px;
+      }
+    }
 
     &__wins,
     &__draws,
