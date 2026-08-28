@@ -22,7 +22,13 @@ function Teams() {
         <SearchBar name="teams" query={query} onQueryChange={setQuery} />
       </div>
 
-      <TeamGrid teams={filteredTeams} />
+      {filteredTeams.length > 0 ? (
+        <TeamGrid teams={filteredTeams} />
+      ) : (
+        <div className="alert alert-info" role="status">
+          No teams found.
+        </div>
+      )}
     </section>
   );
 }
