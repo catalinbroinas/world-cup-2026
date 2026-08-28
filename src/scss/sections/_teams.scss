@@ -1,0 +1,11 @@
+@use '../base/' as *;
+
+// =================================
+//   GROUPS
+// =================================
+
+.teams-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
