@@ -1,0 +1,15 @@
+@use '../base/' as *;
+
+// =================================
+//   STADIUMS
+// =================================
+
+.stadiums-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  @include media-breakpoint-down(sm) {
+    gap: 3.5rem;
+  }
+}
