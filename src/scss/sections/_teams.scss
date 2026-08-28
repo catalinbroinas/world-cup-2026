@@ -7,7 +7,11 @@
 .teams-content {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
+
+  @include media-breakpoint-down(sm) {
+    gap: 3.5rem;
+  }
 }
 
 .teams-toolbar {
