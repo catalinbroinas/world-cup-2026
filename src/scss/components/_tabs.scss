@@ -48,8 +48,10 @@
       border-radius: 0.25rem;
     }
 
-    &:hover {
-      background-color: rgba($primary, 8%);
+    @media (hover: hover) {
+      &:hover {
+        background-color: rgba($primary, 8%);
+      }
     }
 
     &:focus-visible {
