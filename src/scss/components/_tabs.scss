@@ -22,6 +22,10 @@
     gap: 0;
   }
 
+  @include media-breakpoint-down(sm) {
+    border-radius: 0;
+  }
+
   &__item {
     background-color: transparent;
     flex: 1;
@@ -46,6 +50,10 @@
     @include media-breakpoint-down(lg) {
       width: auto;
       border-radius: 0.25rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: 0.625rem 1rem;
     }
 
     @media (hover: hover) {
