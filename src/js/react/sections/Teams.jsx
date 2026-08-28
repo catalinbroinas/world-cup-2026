@@ -18,7 +18,7 @@ function Teams() {
         Tournament teams
       </h2>
 
-      <div className="teams-toolbar">
+      <div className="toolbar">
         <SearchBar name="teams" query={query} onQueryChange={setQuery} />
       </div>
 

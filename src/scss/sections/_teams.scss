@@ -13,26 +13,3 @@
     gap: 3.5rem;
   }
 }
-
-.teams-toolbar {
-  width: 100%;
-  max-width: 620px;
-
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  
-  background-color: $bg-section;
-  padding: 1rem 1.5rem;
-  margin-inline: auto;
-  border-radius: 1rem;
-  box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.08);
-
-  @include media-breakpoint-down(sm) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-    border-radius: 0;
-  }
-}
