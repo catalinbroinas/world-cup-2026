@@ -64,4 +64,47 @@ export const teams = [
     name: "Scotland",
     flag: "scotland"
   },
+
+  {
+    id: "brazil",
+    imageUrl: teamImages.maracana,
+    imageAlt: "Maracana",
+    name: "Brazil",
+    flag: "brazil"
+  },
+  {
+    id: "argentina",
+    imageUrl: teamImages.laBombonera,
+    imageAlt: "La bombonera",
+    name: "Argentina",
+    flag: "argentina"
+  },
+  {
+    id: "uruguay",
+    imageUrl: teamImages.uruguay,
+    imageAlt: "Penarol`s stadium",
+    name: "Uruguay",
+    flag: "uruguay"
+  },
+  {
+    id: "paraguay",
+    imageUrl: teamImages.defensores,
+    imageAlt: "Defensores",
+    name: "Paraguay",
+    flag: "paraguay"
+  },
+  {
+    id: "ecuador",
+    imageUrl: teamImages.monumental,
+    imageAlt: "Monumental",
+    name: "Ecuador",
+    flag: "ecuador"
+  },
+  {
+    id: "colombia",
+    imageUrl: teamImages.risaralda,
+    imageAlt: "Pereira, Risaralda stadium",
+    name: "Colombia",
+    flag: "colombia"
+  },
 ];
