@@ -40,5 +40,54 @@ export const stadiums = [
     name: "BMO Field",
     capacity: 43.036,
     matches: 6
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.metLife,
+    location: "New York, USA",
+    name: "MetLife Stadium",
+    capacity: 80.663,
+    matches: 8
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.dallas,
+    location: "Dallas, USA",
+    name: "AT&T Stadium",
+    capacity: 70.649,
+    matches: 9
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.sofi,
+    location: "Los Angeles, USA",
+    name: "Sofi Stadium",
+    capacity: 70.492,
+    matches: 8
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.levis,
+    location: "San Francisco, USA",
+    name: "Levi's Stadium",
+    capacity: 68.827,
+    matches: 6
+  },
+
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.nrg,
+    location: "Houston, USA",
+    name: "NRG Stadium",
+    capacity: 68.777,
+    matches: 7
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.kansasCity,
+    location: "Kansas City, USA",
+    name: "Arrowhead Stadium",
+    capacity: 69.045,
+    matches: 6
   }
 ];
