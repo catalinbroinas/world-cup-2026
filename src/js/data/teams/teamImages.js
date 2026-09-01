@@ -1,12 +1,12 @@
-import wembleyImg from "../../../assets/images/stadiums/wembley.webp";
-import olympiastadionImg from "../../../assets/images/stadiums/olympiastadion.webp";
-import bernabeuImg from "../../../assets/images/stadiums/bernabeu.webp";
-import kingBImg from "../../../assets/images/stadiums/kingB.webp";
-import benficaImg from "../../../assets/images/stadiums/benfica.webp";
-import parcDesPrincesImg from "../../../assets/images/stadiums/parcDesPrinces.webp";
-import deKuipImg from "../../../assets/images/stadiums/deKuip.webp";
-import celticParkImg from "../../../assets/images/stadiums/celticPark.webp";
-import bernImg from "../../../assets/images/stadiums/bern.webp";
+import wembleyImg from "../../../assets/images/stadiums/teams/wembley.webp";
+import olympiastadionImg from "../../../assets/images/stadiums/teams/olympiastadion.webp";
+import bernabeuImg from "../../../assets/images/stadiums/teams/bernabeu.webp";
+import kingBImg from "../../../assets/images/stadiums/teams/kingB.webp";
+import benficaImg from "../../../assets/images/stadiums/teams/benfica.webp";
+import parcDesPrincesImg from "../../../assets/images/stadiums/teams/parcDesPrinces.webp";
+import deKuipImg from "../../../assets/images/stadiums/teams/deKuip.webp";
+import celticParkImg from "../../../assets/images/stadiums/teams/celticPark.webp";
+import bernImg from "../../../assets/images/stadiums/teams/bern.webp";
 
 export const teamImages = {
   wembley: wembleyImg,
