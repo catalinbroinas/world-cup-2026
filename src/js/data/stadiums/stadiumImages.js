@@ -1,9 +1,8 @@
-import akronImg from "../../../assets/images/stadiums/akron.webp";
-import aztecaImg from "../../../assets/images/stadiums/azteca.webp";
-import bbvaImg from "../../../assets/images/stadiums/bbva.webp";
-import bcPlaceImg from "../../../assets/images/stadiums/bcPlace.webp";
-import bmoFieldImg from "../../../assets/images/stadiums/bmoField.webp";
-
+import akronImg from "../../../assets/images/stadiums/tournament/akron.webp";
+import aztecaImg from "../../../assets/images/stadiums/tournament/azteca.webp";
+import bbvaImg from "../../../assets/images/stadiums/tournament/bbva.webp";
+import bcPlaceImg from "../../../assets/images/stadiums/tournament/bcPlace.webp";
+import bmoFieldImg from "../../../assets/images/stadiums/tournament/bmoField.webp";
 import dallasImg from "../../../assets/images/stadiums/tournament/dallas.webp";
 import kansasCityImg from "../../../assets/images/stadiums/tournament/kansasCity.webp";
 import levisImg from "../../../assets/images/stadiums/tournament/levis.webp";
