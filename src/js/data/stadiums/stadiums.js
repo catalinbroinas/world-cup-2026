@@ -68,12 +68,51 @@ export const stadiums = [
   {
     id: crypto.randomUUID(),
     imageUrl: stadiumImages.levis,
-    location: "San Francisco, USA",
+    location: "Lincoln Financial Field",
     name: "Levi's Stadium",
     capacity: 68.827,
     matches: 6
   },
-
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.philadelphiaStadium,
+    location: "Philadelphia, USA",
+    name: "Lincoln Financial Field",
+    capacity: 68.324,
+    matches: 6
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.mercedezBenz,
+    location: "Atlanta, USA",
+    name: "Mercedes-Benz Stadium",
+    capacity: 68.239,
+    matches: 8
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.lumenField,
+    location: "Seattle, USA",
+    name: "Lumen Field",
+    capacity: 68.925,
+    matches: 6
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.hardRockStadiu,
+    location: "Miami, USA",
+    name: "Hard Rock Stadium",
+    capacity: 64.478,
+    matches: 7
+  },
+  {
+    id: crypto.randomUUID(),
+    imageUrl: stadiumImages.gilletteStadium,
+    location: "Boston, USA",
+    name: "Gillette Stadium",
+    capacity: 64.146,
+    matches: 7
+  },
   {
     id: crypto.randomUUID(),
     imageUrl: stadiumImages.nrg,

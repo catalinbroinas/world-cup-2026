@@ -9,6 +9,11 @@ import levisImg from "../../../assets/images/stadiums/tournament/levis.webp";
 import metLifeImg from "../../../assets/images/stadiums/tournament/metLife.webp";
 import nrgImg from "../../../assets/images/stadiums/tournament/nrg.webp";
 import sofiImg from "../../../assets/images/stadiums/tournament/sofi.webp";
+import philadelphiaStadiumImg from "../../../assets/images/stadiums/tournament/philadelphiaStadium.webp";
+import mercedezBenzImg from "../../../assets/images/stadiums/tournament/mercedezBenz.webp";
+import lumenFieldImg from "../../../assets/images/stadiums/tournament/lumenField.webp";
+import hardRockStadiuImg from "../../../assets/images/stadiums/tournament/hardRockStadiu.webp";
+import gilletteStadiumImg from "../../../assets/images/stadiums/tournament/gilletteStadium.webp";
 
 export const stadiumImages = {
   akron: akronImg,
@@ -21,5 +26,10 @@ export const stadiumImages = {
   levis: levisImg,
   metLife: metLifeImg,
   nrg: nrgImg,
-  sofi: sofiImg
+  sofi: sofiImg,
+  philadelphiaStadium: philadelphiaStadiumImg,
+  mercedezBenz: mercedezBenzImg,
+  lumenField: lumenFieldImg,
+  hardRockStadiu: hardRockStadiuImg,
+  gilletteStadium: gilletteStadiumImg,
 };
