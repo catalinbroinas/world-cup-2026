@@ -1,22 +1,8 @@
-@use '../base/' as *;
+@use '../base' as *;
 
 // =================================
-//   GROUPS
+//   GROUP TABLE
 // =================================
-
-.groups-content {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-// =================================
-//   GROUPS - Table
-// =================================
-
-.group-stats {
-  margin-bottom: 3rem;
-}
 
 .group-table {
   width: 100%;
@@ -140,14 +126,4 @@
       display: table-cell;
     }
   }
-}
-
-// =================================
-//   GROUPS - Matches
-// =================================
-
-.group-matches {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
 }

@@ -1,0 +1,21 @@
+@use '../base/' as *;
+
+// =================================
+//   GROUPS
+// =================================
+
+.groups-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.group-stats {
+  margin-bottom: 3rem;
+}
+
+.group-matches {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
