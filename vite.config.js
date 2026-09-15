@@ -17,6 +17,10 @@ export default {
     rolldownOptions: {
       input: {
         main: resolve(import.meta.dirname, 'index.html'),
+        teams: resolve(import.meta.dirname, 'teams.html'),
+        stadiums: resolve(import.meta.dirname, 'stadiums.html'),
+        groups: resolve(import.meta.dirname, 'group-stage.html'),
+        knockout: resolve(import.meta.dirname, 'knockout-stage.html'),
       },
     },
     rollupOptions: {
