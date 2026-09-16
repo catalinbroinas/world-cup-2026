@@ -53,7 +53,7 @@ function MatchCard({ match }) {
   const formattedDate = formatDate(date);
 
   return (
-    <div className="card card-match h-100">
+    <article className="card card-match h-100">
       <div className="card-body card-match__body">
         <ul className="list-group list-group-light list-group-small">
           <li className="list-group-item card-match__team">
@@ -119,7 +119,7 @@ function MatchCard({ match }) {
           {formattedDate}
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 
