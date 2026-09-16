@@ -85,7 +85,9 @@ function MatchCard({ match }) {
           <FontAwesomeIcon
             icon={faLocationDot}
             className="card-match__meta-icon"
+            aria-hidden="true"
           />
+          <span className="visually-hidden">Stadium: </span>
           {stadium}
         </div>
 
@@ -93,7 +95,9 @@ function MatchCard({ match }) {
           <FontAwesomeIcon
             icon={faCalendarDay}
             className="card-match__meta-icon"
+            aria-hidden="true"
           />
+          <span className="visually-hidden">Date: </span>
           {formattedDate}
         </div>
       </div>
