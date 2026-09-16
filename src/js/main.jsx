@@ -15,10 +15,10 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // Components
-import Teams from './react/sections/Teams';
-import Groups from './react/sections/Groups';
-import KnockoutStage from './react/sections/KnockoutStage';
-import Stadiums from './react/sections/Stadiums';
+import Teams from './react/pages/Teams';
+import Groups from './react/pages/Groups';
+import KnockoutStage from './react/pages/KnockoutStage';
+import Stadiums from './react/pages/Stadiums';
 
 function AppManager() {
   const addEvents = () => {
