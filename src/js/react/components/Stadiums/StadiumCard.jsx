@@ -30,8 +30,10 @@ function StadiumCard({ stadium }) {
               <FontAwesomeIcon
                 icon={faLocationDot}
                 className="card-stadium__icon"
-                aria-label="Location:"
+                aria-hidden="true"
               />
+
+              <span className="visually-hidden">Location: </span>
 
               <span className="card-stadium__text">
                 {location}
@@ -39,11 +41,13 @@ function StadiumCard({ stadium }) {
             </li>
 
             <li className="list-group-item card-stadium__item">
-                <FontAwesomeIcon
+              <FontAwesomeIcon
                 icon={faUsers}
                 className="card-stadium__icon"
-                aria-label="Capacity:"
+                aria-hidden="true"
               />
+
+              <span className="visually-hidden">Capacity: </span>
 
               <span className="card-stadium__text">
                 {`${capacity} spectators`}
@@ -54,8 +58,10 @@ function StadiumCard({ stadium }) {
               <FontAwesomeIcon
                 icon={faFutbol}
                 className="card-stadium__icon"
-                aria-label="Matches hosted:"
+                aria-hidden="true"
               />
+
+              <span className="visually-hidden">Matches hosted: </span>
 
               <span className="card-stadium__text">
                 {`${matches} matches`}
