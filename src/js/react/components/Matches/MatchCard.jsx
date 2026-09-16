@@ -38,6 +38,18 @@ function MatchCard({ match }) {
   const isHomeWinner = homeResult > awayResult;
   const isAwayWinner = awayResult > homeResult;
 
+  const matchStatus = extraTime != null
+    ? penalties != null
+      ? {
+        short: "PEN",
+        label: "Match decided by penalties"
+      }
+      : {
+        short: "ET",
+        label: "Extra time"
+      }
+    : null;
+
   const formattedDate = formatDate(date);
 
   return (
@@ -70,10 +82,16 @@ function MatchCard({ match }) {
             </div>
           </li>
 
-          {extraTime != null && (
+          {matchStatus && (
             <div className="card-match__status">
               <span className="card-match__status-badge">
-                {penalties != null ? "PEN" : "ET"}
+                <span aria-hidden="true">
+                  {matchStatus.short}
+                </span>
+
+                <span className="visually-hidden">
+                  {matchStatus.label}
+                </span>
               </span>
             </div>
           )}
