@@ -15,7 +15,12 @@ function TeamCard({ team }) {
         data-mdb-ripple-init
         data-mdb-ripple-color="light"
       >
-        <img src={imageUrl} alt={imageAlt} className="card-team__image" />
+        <img
+          src={imageUrl}
+          alt={imageAlt}
+          loading="lazy"
+          className="card-team__image"
+        />
         <div className="mask card-team__mask"></div>
       </div>
 
