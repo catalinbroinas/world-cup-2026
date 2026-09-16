@@ -69,7 +69,7 @@ function MatchCard({ match }) {
             </div>
           </li>
 
-          <li className="list-group-item card-match__team">
+          <li className="list-group-item border-0 card-match__team">
             <div className="card-match__team-info">
               <i className={`flag flag-${awayTeam.flag}`} aria-hidden="true"></i>
               <span className={isAwayWinner ? "card-match__team-winner" : ""}>
@@ -83,7 +83,7 @@ function MatchCard({ match }) {
           </li>
 
           {matchStatus && (
-            <div className="card-match__status">
+            <li className="card-match__status">
               <span className="card-match__status-badge">
                 <span aria-hidden="true">
                   {matchStatus.short}
@@ -93,7 +93,7 @@ function MatchCard({ match }) {
                   {matchStatus.label}
                 </span>
               </span>
-            </div>
+            </li>
           )}
         </ul>
       </div>
