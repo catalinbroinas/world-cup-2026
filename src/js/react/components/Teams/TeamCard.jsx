@@ -9,7 +9,7 @@ function TeamCard({ team }) {
   }, []);
 
   return (
-    <div className="card card-team h-100">
+    <article className="card card-team h-100">
       <div
         className="card-team__image-wrapper bg-image hover-overlay"
         data-mdb-ripple-init
@@ -29,7 +29,7 @@ function TeamCard({ team }) {
           {name}
         </h3>
       </div>
-    </div>
+    </article>
   );
 }
 
