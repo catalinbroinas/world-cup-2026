@@ -68,7 +68,7 @@ export const stadiums = [
   {
     id: crypto.randomUUID(),
     imageUrl: stadiumImages.levis,
-    location: "Lincoln Financial Field",
+    location: "San Francisco, USA",
     name: "Levi's Stadium",
     capacity: 68.827,
     matches: 6
