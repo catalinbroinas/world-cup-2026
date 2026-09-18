@@ -486,7 +486,7 @@ export const groups = [
       },
       {
         id: "congo",
-        country: "Congo DR",
+        country: "DR Congo",
         flag: "congo",
         W: 1,
         D: 1,
