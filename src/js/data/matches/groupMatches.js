@@ -649,4 +649,134 @@ export const groupMatches = [
     referee: "Nyberg G.",
     date: "2026-06-25"
   },
+
+  // F
+  {
+    id: crypto.randomUUID(),
+    groupId: "F",
+    round: 1,
+
+    homeTeam: {
+      name: "Netherlands",
+      flag: "netherlands",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Japan",
+      flag: "japan",
+      result: 2
+    },
+
+    stadium: "AT&T Stadium",
+    referee: "Elfath I.",
+    date: "2026-06-14"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "F",
+    round: 1,
+
+    homeTeam: {
+      name: "Sweden",
+      flag: "sweden",
+      result: 5
+    },
+
+    awayTeam: {
+      name: "Tunisia",
+      flag: "tunisia",
+      result: 1
+    },
+
+    stadium: "Estadio BBVA",
+    referee: "Perez Y.",
+    date: "2026-06-15"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "F",
+    round: 2,
+
+    homeTeam: {
+      name: "Netherlands",
+      flag: "netherlands",
+      result: 5
+    },
+
+    awayTeam: {
+      name: "Sweden",
+      flag: "sweden",
+      result: 1
+    },
+
+    stadium: "NRG Stadium",
+    referee: "Oliver M.",
+    date: "2026-06-20"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "F",
+    round: 2,
+
+    homeTeam: {
+      name: "Tunisia",
+      flag: "tunisia",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Japan",
+      flag: "japan",
+      result: 4
+    },
+
+    stadium: "Estadio BBVA",
+    referee: "Kovacs I.",
+    date: "2026-06-21"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "F",
+    round: 3,
+
+    homeTeam: {
+      name: "Japan",
+      flag: "japan",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Sweden",
+      flag: "sweden",
+      result: 1
+    },
+
+    stadium: "AT&T Stadium",
+    referee: "Barton I.",
+    date: "2026-06-26"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "F",
+    round: 3,
+
+    homeTeam: {
+      name: "Tunisia",
+      flag: "tunisia",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Netherlands",
+      flag: "netherlands",
+      result: 3
+    },
+
+    stadium: "Arrowhead Stadium",
+    referee: "Garcia Mendoza K. I.",
+    date: "2026-06-26"
+  },
 ];
