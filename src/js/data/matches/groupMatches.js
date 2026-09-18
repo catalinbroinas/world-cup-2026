@@ -1169,4 +1169,135 @@ export const groupMatches = [
     referee: "Taylor A.",
     date: "2026-06-26"
   },
+
+  // J
+  {
+    id: crypto.randomUUID(),
+    groupId: "J",
+    round: 1,
+
+    homeTeam: {
+      name: "Argentina",
+      flag: "argentina",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Algeria",
+      flag: "algeria",
+      result: 0
+    },
+
+    stadium: "Arrowhead Stadium",
+    referee: "Marciniak S.",
+    date: "2026-06-17"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "J",
+    round: 1,
+
+    homeTeam: {
+      name: "Austria",
+      flag: "austria",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Jordan",
+      flag: "jordan",
+      result: 1
+    },
+
+    stadium: "Levi's Stadium",
+    referee: "Beida D.",
+    date: "2026-06-17"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "J",
+    round: 2,
+
+    homeTeam: {
+      name: "Argentina",
+      flag: "argentina",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Austria",
+      flag: "austria",
+      result: 0
+    },
+
+    stadium: "AT&T Stadium",
+    referee: "Omar A.",
+    date: "2026-06-23"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "J",
+    round: 2,
+
+    homeTeam: {
+      name: "Jordan",
+      flag: "jordan",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Algeria",
+      flag: "algeria",
+      result: 2
+    },
+
+    stadium: "Levi's Stadium",
+    referee: "Vincic S.",
+    date: "2026-06-23"
+  },
+
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "J",
+    round: 3,
+
+    homeTeam: {
+      name: "Jordan",
+      flag: "jordan",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Argentina",
+      flag: "argentina",
+      result: 3
+    },
+
+    stadium: "AT&T Stadium",
+    referee: "Kovacs I.",
+    date: "2026-06-28"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "J",
+    round: 3,
+
+    homeTeam: {
+      name: "Algeria",
+      flag: "algeria",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Austria",
+      flag: "austria",
+      result: 3
+    },
+
+    stadium: "Arrowhead Stadium",
+    referee: "Tantashev I.",
+    date: "2026-06-28"
+  },
 ];
