@@ -779,4 +779,134 @@ export const groupMatches = [
     referee: "Garcia Mendoza K. I.",
     date: "2026-06-26"
   },
+
+  // G
+  {
+    id: crypto.randomUUID(),
+    groupId: "G",
+    round: 1,
+
+    homeTeam: {
+      name: "Belgium",
+      flag: "belgium",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Egypt",
+      flag: "egypt",
+      result: 1
+    },
+
+    stadium: "Lumen Field",
+    referee: "Abatti R.",
+    date: "2026-06-15"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "G",
+    round: 1,
+
+    homeTeam: {
+      name: "Iran",
+      flag: "iran",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "New Zealand",
+      flag: "new-zealand",
+      result: 2
+    },
+
+    stadium: "SoFi Stadium",
+    referee: "Ramos C. A.",
+    date: "2026-06-16"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "G",
+    round: 2,
+
+    homeTeam: {
+      name: "Belgium",
+      flag: "belgium",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Iran",
+      flag: "iran",
+      result: 0
+    },
+
+    stadium: "SoFi Stadium",
+    referee: "Herrera D",
+    date: "2026-06-21"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "G",
+    round: 2,
+
+    homeTeam: {
+      name: "New Zealand",
+      flag: "new-zealand",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Egypt",
+      flag: "egypt",
+      result: 3
+    },
+
+    stadium: "BC Place",
+    referee: "Alali O.",
+    date: "2026-06-22"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "G",
+    round: 3,
+
+    homeTeam: {
+      name: "New Zealand",
+      flag: "new-zealand",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Belgium",
+      flag: "belgium",
+      result: 5
+    },
+
+    stadium: "BC Place",
+    referee: "Makhadmeh A",
+    date: "2026-06-27"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "G",
+    round: 3,
+
+    homeTeam: {
+      name: "Egypt",
+      flag: "egypt",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Iran",
+      flag: "iran",
+      result: 1
+    },
+
+    stadium: "Lumen Field",
+    referee: "Marciniak S.",
+    date: "2026-06-27"
+  },
 ];
