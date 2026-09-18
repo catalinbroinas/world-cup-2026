@@ -144,7 +144,7 @@ export const groups = [
     teams: [
       {
         id: "united-states",
-        country: "SUA",
+        country: "United States",
         flag: "united-states",
         W: 2,
         D: 0,
