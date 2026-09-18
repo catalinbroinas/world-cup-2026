@@ -1300,4 +1300,134 @@ export const groupMatches = [
     referee: "Tantashev I.",
     date: "2026-06-28"
   },
+
+  // K
+  {
+    id: crypto.randomUUID(),
+    groupId: "K",
+    round: 1,
+
+    homeTeam: {
+      name: "Portugal",
+      flag: "portugal",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "DR Congo",
+      flag: "congo",
+      result: 1
+    },
+
+    stadium: "NRG Stadium",
+    referee: "Al Jassim A.",
+    date: "2026-06-17"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "K",
+    round: 1,
+
+    homeTeam: {
+      name: "Uzbekistan",
+      flag: "uzbekistan",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Colombia",
+      flag: "colombia",
+      result: 3
+    },
+
+    stadium: "Estadio Azteca",
+    referee: "Taylor A.",
+    date: "2026-06-18"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "K",
+    round: 2,
+
+    homeTeam: {
+      name: "Portugal",
+      flag: "portugal",
+      result: 5
+    },
+
+    awayTeam: {
+      name: "Uzbekistan",
+      flag: "uzbekistan",
+      result: 0
+    },
+
+    stadium: "NRG Stadium",
+    referee: "Jayed J.",
+    date: "2026-06-23"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "K",
+    round: 2,
+
+    homeTeam: {
+      name: "Colombia",
+      flag: "colombia",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "DR Congo",
+      flag: "congo",
+      result: 0
+    },
+
+    stadium: "Estadio Akron",
+    referee: "Mariani M.",
+    date: "2026-06-24"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "K",
+    round: 3,
+
+    homeTeam: {
+      name: "Colombia",
+      flag: "colombia",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Portugal",
+      flag: "portugal",
+      result: 0
+    },
+
+    stadium: "Hard Rock Stadium",
+    referee: "Faghani A.",
+    date: "2026-06-28"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "K",
+    round: 3,
+
+    homeTeam: {
+      name: "DR Congo",
+      flag: "congo",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Uzbekistan",
+      flag: "uzbekistan",
+      result: 1
+    },
+
+    stadium: "Mercedes-Benz Stadium",
+    referee: "Zwayer F.",
+    date: "2026-06-28"
+  },
 ];
