@@ -1430,4 +1430,134 @@ export const groupMatches = [
     referee: "Zwayer F.",
     date: "2026-06-28"
   },
+
+  // L
+  {
+    id: crypto.randomUUID(),
+    groupId: "L",
+    round: 1,
+
+    homeTeam: {
+      name: "England",
+      flag: "england",
+      result: 4
+    },
+
+    awayTeam: {
+      name: "Croatia",
+      flag: "croatia",
+      result: 2
+    },
+
+    stadium: "AT&T Stadium",
+    referee: "Turpin C.",
+    date: "2026-06-17"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "L",
+    round: 1,
+
+    homeTeam: {
+      name: "Ghana",
+      flag: "ghana",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Panama",
+      flag: "panama",
+      result: 0
+    },
+
+    stadium: "BMO Field",
+    referee: "Nyberg G.",
+    date: "2026-06-18"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "L",
+    round: 2,
+
+    homeTeam: {
+      name: "England",
+      flag: "england",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Ghana",
+      flag: "ghana",
+      result: 0
+    },
+
+    stadium: "Gillette Stadium",
+    referee: "Martinez S.",
+    date: "2026-06-23"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "L",
+    round: 2,
+
+    homeTeam: {
+      name: "Panama",
+      flag: "panama",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Croatia",
+      flag: "croatia",
+      result: 1
+    },
+
+    stadium: "BMO Field",
+    referee: "Atcho P.",
+    date: "2026-06-24"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "L",
+    round: 3,
+
+    homeTeam: {
+      name: "Panama",
+      flag: "panama",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "England",
+      flag: "england",
+      result: 2
+    },
+
+    stadium: "MetLife Stadium",
+    referee: "Al Jassim A.",
+    date: "2026-06-28"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "L",
+    round: 3,
+
+    homeTeam: {
+      name: "Croatia",
+      flag: "croatia",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Ghana",
+      flag: "ghana",
+      result: 1
+    },
+
+    stadium: "Lincoln Financial Field",
+    referee: "Fischer D.",
+    date: "2026-06-28"
+  },
 ];
