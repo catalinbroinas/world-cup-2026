@@ -259,4 +259,134 @@ export const groupMatches = [
     referee: "Valenzuela J.",
     date: "2026-06-24"
   },
+
+  // C
+  {
+    id: crypto.randomUUID(),
+    groupId: "C",
+    round: 1,
+
+    homeTeam: {
+      name: "Brazil",
+      flag: "brazil",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Morocco",
+      flag: "morocco",
+      result: 1
+    },
+
+    stadium: "MetLife Stadium",
+    referee: "Vincic S.",
+    date: "2026-06-14"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "C",
+    round: 1,
+
+    homeTeam: {
+      name: "Haiti",
+      flag: "haiti",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Scotland",
+      flag: "scotland",
+      result: 1
+    },
+
+    stadium: "Gillette Stadium",
+    referee: "Ghorbal M.",
+    date: "2026-06-14"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "C",
+    round: 2,
+
+    homeTeam: {
+      name: "Scotland",
+      flag: "scotland",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Morocco",
+      flag: "morocco",
+      result: 1
+    },
+
+    stadium: "Gillette Stadium",
+    referee: "Tantashev I.",
+    date: "2026-06-20"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "C",
+    round: 2,
+
+    homeTeam: {
+      name: "Brazil",
+      flag: "brazil",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Haiti",
+      flag: "haiti",
+      result: 0
+    },
+
+    stadium: "Lincoln Financial Field",
+    referee: "Hernandez A.",
+    date: "2026-06-20"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "C",
+    round: 3,
+
+    homeTeam: {
+      name: "Scotland",
+      flag: "scotland",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Brazil",
+      flag: "brazil",
+      result: 3
+    },
+
+    stadium: "Hard Rock Stadium",
+    referee: "Ramos C. A",
+    date: "2026-06-25"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "C",
+    round: 3,
+
+    homeTeam: {
+      name: "Morocco",
+      flag: "morocco",
+      result: 4
+    },
+
+    awayTeam: {
+      name: "Scotland",
+      flag: "scotland",
+      result: 2
+    },
+
+    stadium: "Mercedes-Benz Stadium",
+    referee: "Makkelie D.",
+    date: "2026-06-25"
+  },
 ];
