@@ -909,4 +909,134 @@ export const groupMatches = [
     referee: "Marciniak S.",
     date: "2026-06-27"
   },
+
+  // H
+  {
+    id: crypto.randomUUID(),
+    groupId: "H",
+    round: 1,
+
+    homeTeam: {
+      name: "Spain",
+      flag: "spain",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Cape Verde",
+      flag: "cape-verde",
+      result: 0
+    },
+
+    stadium: "Mercedes-Benz Stadium",
+    referee: "Makhadmeh A",
+    date: "2026-06-15"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "H",
+    round: 1,
+
+    homeTeam: {
+      name: "Saudi Arabia",
+      flag: "saudi-arabia",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Uruguay",
+      flag: "uruguay",
+      result: 1
+    },
+
+    stadium: "Hard Rock Stadium",
+    referee: "Mariani M.",
+    date: "2026-06-16"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "H",
+    round: 2,
+
+    homeTeam: {
+      name: "Spain",
+      flag: "spain",
+      result: 4
+    },
+
+    awayTeam: {
+      name: "Saudi Arabia",
+      flag: "saudi-arabia",
+      result: 0
+    },
+
+    stadium: "Mercedes-Benz Stadium",
+    referee: "Claus R.",
+    date: "2026-06-21"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "H",
+    round: 2,
+
+    homeTeam: {
+      name: "Uruguay",
+      flag: "uruguay",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Cape Verde",
+      flag: "cape-verde",
+      result: 2
+    },
+
+    stadium: "Hard Rock Stadium",
+    referee: "Eskas E.",
+    date: "2026-06-22"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "H",
+    round: 3,
+
+    homeTeam: {
+      name: "Uruguay",
+      flag: "uruguay",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Spain",
+      flag: "spain",
+      result: 1
+    },
+
+    stadium: "Estadio Akron",
+    referee: "Elfath I.",
+    date: "2026-06-27"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "H",
+    round: 3,
+
+    homeTeam: {
+      name: "Cape Verde",
+      flag: "cape-verde",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Saudi Arabia",
+      flag: "saudi-arabia",
+      result: 0
+    },
+
+    stadium: "NRG Stadium",
+    referee: "Letexier F.",
+    date: "2026-06-27"
+  },
 ];
