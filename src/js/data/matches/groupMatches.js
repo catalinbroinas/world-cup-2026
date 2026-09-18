@@ -389,4 +389,134 @@ export const groupMatches = [
     referee: "Makkelie D.",
     date: "2026-06-25"
   },
+
+  // D
+  {
+    id: crypto.randomUUID(),
+    groupId: "D",
+    round: 1,
+
+    homeTeam: {
+      name: "United States",
+      flag: "united-states",
+      result: 4
+    },
+
+    awayTeam: {
+      name: "Paraguay",
+      flag: "paraguay",
+      result: 1
+    },
+
+    stadium: "SoFi Stadium",
+    referee: "Makkelie D.",
+    date: "2026-06-13"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "D",
+    round: 1,
+
+    homeTeam: {
+      name: "Australia",
+      flag: "australia",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Turkey",
+      flag: "turkey",
+      result: 0
+    },
+
+    stadium: "BC Place",
+    referee: "Valenzuela J.",
+    date: "2026-06-14"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "D",
+    round: 2,
+
+    homeTeam: {
+      name: "United States",
+      flag: "united-states",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Australia",
+      flag: "australia",
+      result: 0
+    },
+
+    stadium: "Lumen Field",
+    referee: "Zwayer F.",
+    date: "2026-06-19"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "D",
+    round: 2,
+
+    homeTeam: {
+      name: "Turkey",
+      flag: "turkey",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Paraguay",
+      flag: "paraguay",
+      result: 1
+    },
+
+    stadium: "Levi's Stadium",
+    referee: "Barton I.",
+    date: "2026-06-20"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "D",
+    round: 3,
+
+    homeTeam: {
+      name: "Turkey",
+      flag: "turkey",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "United States",
+      flag: "united-states",
+      result: 2
+    },
+
+    stadium: "SoFi Stadium",
+    referee: "Ghorbal M.",
+    date: "2026-06-26"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "D",
+    round: 3,
+
+    homeTeam: {
+      name: "Paraguay",
+      flag: "paraguay",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Australia",
+      flag: "australia",
+      result: 0
+    },
+
+    stadium: "Levi's Stadium",
+    referee: "Turpin C.",
+    date: "2026-06-26"
+  },
 ];
