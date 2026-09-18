@@ -519,4 +519,134 @@ export const groupMatches = [
     referee: "Turpin C.",
     date: "2026-06-26"
   },
+
+  // E
+  {
+    id: crypto.randomUUID(),
+    groupId: "E",
+    round: 1,
+
+    homeTeam: {
+      name: "Germany",
+      flag: "germany",
+      result: 7
+    },
+
+    awayTeam: {
+      name: "Curacao",
+      flag: "cook-islands",
+      result: 1
+    },
+
+    stadium: "NRG Stadium",
+    referee: "Jayed J.",
+    date: "2026-06-14"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "E",
+    round: 1,
+
+    homeTeam: {
+      name: "Cote Divoire",
+      flag: "cote-divoire",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Ecuador",
+      flag: "ecuador",
+      result: 0
+    },
+
+    stadium: "Lincoln Financial Field",
+    referee: "Letexier F.",
+    date: "2026-06-15"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "E",
+    round: 2,
+
+    homeTeam: {
+      name: "Germany",
+      flag: "germany",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Cote Divoire",
+      flag: "cote-divoire",
+      result: 1
+    },
+
+    stadium: "BMO Field",
+    referee: "Benitez J.",
+    date: "2026-06-20"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "E",
+    round: 2,
+
+    homeTeam: {
+      name: "Ecuador",
+      flag: "ecuador",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Curacao",
+      flag: "cook-islands",
+      result: 0
+    },
+
+    stadium: "Arrowhead Stadium",
+    referee: "Ma Ning",
+    date: "2026-06-21"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "E",
+    round: 3,
+
+    homeTeam: {
+      name: "Ecuador",
+      flag: "ecuador",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Germany",
+      flag: "germany",
+      result: 1
+    },
+
+    stadium: "MetLife Stadium",
+    referee: "Penso T.",
+    date: "2026-06-25"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "E",
+    round: 3,
+
+    homeTeam: {
+      name: "Curacao",
+      flag: "cook-islands",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Cote Divoire",
+      flag: "cote-divoire",
+      result: 2
+    },
+
+    stadium: "Lincoln Financial Field",
+    referee: "Nyberg G.",
+    date: "2026-06-25"
+  },
 ];
