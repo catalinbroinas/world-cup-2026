@@ -18,7 +18,7 @@ export const groupMatches = [
       result: 0
     },
 
-    stadium: "Azteca",
+    stadium: "Estadio Azteca",
     referee: "Sampaio W.",
     date: "2026-06-11"
   },
@@ -61,7 +61,7 @@ export const groupMatches = [
       result: 1
     },
 
-    stadium: "Mercedes-Benz",
+    stadium: "Mercedes-Benz Stadium",
     referee: "Penso T.",
     date: "2026-06-18"
   },
@@ -104,7 +104,7 @@ export const groupMatches = [
       result: 3
     },
 
-    stadium: "Azteca",
+    stadium: "Estadio Azteca",
     referee: "Perez Y.",
     date: "2026-06-25"
   },
