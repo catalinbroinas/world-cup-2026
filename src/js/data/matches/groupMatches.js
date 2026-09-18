@@ -1039,4 +1039,134 @@ export const groupMatches = [
     referee: "Letexier F.",
     date: "2026-06-27"
   },
+
+  // I
+  {
+    id: crypto.randomUUID(),
+    groupId: "I",
+    round: 1,
+
+    homeTeam: {
+      name: "France",
+      flag: "france",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Senegal",
+      flag: "senegal",
+      result: 1
+    },
+
+    stadium: "MetLife Stadium",
+    referee: "Faghani A.",
+    date: "2026-06-16"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "I",
+    round: 1,
+
+    homeTeam: {
+      name: "Iraq",
+      flag: "iraq",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Norway",
+      flag: "norway",
+      result: 4
+    },
+
+    stadium: "Gillette Stadium",
+    referee: "Atcho P.",
+    date: "2026-06-17"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "I",
+    round: 2,
+
+    homeTeam: {
+      name: "France",
+      flag: "france",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Iraq",
+      flag: "iraq",
+      result: 0
+    },
+
+    stadium: "Lincoln Financial Field",
+    referee: "Fischer D.",
+    date: "2026-06-23"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "I",
+    round: 2,
+
+    homeTeam: {
+      name: "Norway",
+      flag: "norway",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Senegal",
+      flag: "senegal",
+      result: 2
+    },
+
+    stadium: "MetLife Stadium",
+    referee: "Sampaio W.",
+    date: "2026-06-23"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "I",
+    round: 3,
+
+    homeTeam: {
+      name: "Norway",
+      flag: "norway",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "France",
+      flag: "france",
+      result: 4
+    },
+
+    stadium: "Gillette Stadium",
+    referee: "Oliver M.",
+    date: "2026-06-26"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "I",
+    round: 3,
+
+    homeTeam: {
+      name: "Senegal",
+      flag: "senegal",
+      result: 5
+    },
+
+    awayTeam: {
+      name: "Iraq",
+      flag: "iraq",
+      result: 0
+    },
+
+    stadium: "BMO Field",
+    referee: "Taylor A.",
+    date: "2026-06-26"
+  },
 ];
