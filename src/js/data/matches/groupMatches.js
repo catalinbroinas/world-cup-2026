@@ -173,4 +173,90 @@ export const groupMatches = [
     referee: "Martinez S",
     date: "2026-06-13"
   },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "B",
+    round: 2,
+
+    homeTeam: {
+      name: "Switzerland",
+      flag: "switzerland",
+      result: 4
+    },
+
+    awayTeam: {
+      name: "Bosnia",
+      flag: "bosnia",
+      result: 1
+    },
+
+    stadium: "SoFi Stadium",
+    referee: "Pinheiro J.",
+    date: "2026-06-18"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "B",
+    round: 2,
+
+    homeTeam: {
+      name: "Canada",
+      flag: "canada",
+      result: 6
+    },
+
+    awayTeam: {
+      name: "Qatar",
+      flag: "qatar",
+      result: 0
+    },
+
+    stadium: "BC Place",
+    referee: "Garay C.",
+    date: "2026-06-19"
+  },
+
+  {
+    id: crypto.randomUUID(),
+    groupId: "B",
+    round: 3,
+
+    homeTeam: {
+      name: "Switzerland",
+      flag: "switzerland",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Canada",
+      flag: "canada",
+      result: 1
+    },
+
+    stadium: "BC Place",
+    referee: "Abatti R.",
+    date: "2026-06-24"
+  },
+  {
+    id: crypto.randomUUID(),
+    groupId: "B",
+    round: 3,
+
+    homeTeam: {
+      name: "Bosnia",
+      flag: "bosnia",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Qatar",
+      flag: "qatar",
+      result: 1
+    },
+
+    stadium: "Lumen Field",
+    referee: "Valenzuela J.",
+    date: "2026-06-24"
+  },
 ];
