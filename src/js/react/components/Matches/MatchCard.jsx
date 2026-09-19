@@ -55,7 +55,7 @@ function MatchCard({ match }) {
   return (
     <article className="card card-match h-100">
       <div className="card-body card-match__body">
-        <ul className="list-group list-group-light list-group-small">
+        <ul className="list-group list-group-light list-group-small card-match__list">
           <li className="list-group-item card-match__team">
             <div className="card-match__team-info">
               <i className={`flag flag-${homeTeam.flag}`} aria-hidden="true"></i>

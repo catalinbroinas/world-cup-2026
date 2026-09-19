@@ -70,9 +70,11 @@
   border-radius: 1rem;
   
   &__body {
-    position: relative;
-
     padding: 1rem 1.5rem;
+  }
+
+  &__list {
+    position: relative;
   }
 
   &__team {
@@ -106,7 +108,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 4rem;
+    right: 2.5rem;
   }
 
   &__status-badge {
