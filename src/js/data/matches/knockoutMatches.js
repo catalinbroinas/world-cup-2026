@@ -82,6 +82,128 @@ export const knockoutMatches = [
     stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
 
     homeTeam: {
+      name: "Netherlands",
+      flag: "netherlands",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Morocco",
+      flag: "morocco",
+      result: 1
+    },
+
+    extraTime: {
+      homeResult: 1,
+      awayResult: 1
+    },
+
+    penalties: {
+      homeResult: 2,
+      awayResult: 3
+    },
+
+    stadium: "Estadio BBVA",
+    referee: "Sampaio W",
+    date: "2026-06-30"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Cote Divoire",
+      flag: "cote-divoire",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Norway",
+      flag: "norway",
+      result: 2
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "AT&T Stadium",
+    referee: "Valenzuela J.",
+    date: "2026-06-30"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "France",
+      flag: "france",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Sweden",
+      flag: "sweden",
+      result: 0
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "MetLife Stadium",
+    referee: "Makkelie D.",
+    date: "2026-07-01"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Mexico",
+      flag: "mexico",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Ecuador",
+      flag: "ecuador",
+      result: 0
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "Estadio Azteca",
+    referee: "Vincic S.",
+    date: "2026-07-01"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "England",
+      flag: "england",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "DR Congo",
+      flag: "congo",
+      result: 1
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "Mercedes-Benz Stadium",
+    referee: "Makhadmeh A",
+    date: "2026-07-01"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
       name: "Belgium",
       flag: "belgium",
       result: 2
@@ -102,6 +224,178 @@ export const knockoutMatches = [
     stadium: "Lumen Field",
     referee: "Martinez S.",
     date: "2026-07-01"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "United States",
+      flag: "united-states",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Bosnia",
+      flag: "bosnia",
+      result: 0
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "Levi's Stadium",
+    referee: "Claus R.",
+    date: "2026-07-02"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Spain",
+      flag: "spain",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Austria",
+      flag: "austria",
+      result: 0
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "SoFi Stadium",
+    referee: "Nyberg G.",
+    date: "2026-07-02"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Portugal",
+      flag: "portugal",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Croatia",
+      flag: "croatia",
+      result: 1
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "BMO Field",
+    referee: "Eskas E.",
+    date: "2026-07-03"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Switzerland",
+      flag: "switzerland",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "Algeria",
+      flag: "algeria",
+      result: 0
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "BC Place",
+    referee: "Perez Y.",
+    date: "2026-07-03"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Australia",
+      flag: "australia",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Egypt",
+      flag: "egypt",
+      result: 1
+    },
+
+    extraTime: {
+      homeResult: 1,
+      awayResult: 1
+    },
+
+    penalties: {
+      homeResult: 2,
+      awayResult: 4
+    },
+
+    stadium: "AT&T Stadium",
+    referee: "Tejera G.",
+    date: "2026-07-03"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Argentina",
+      flag: "argentina",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Cape Verde",
+      flag: "cape-verde",
+      result: 1
+    },
+
+    extraTime: {
+      homeResult: 3,
+      awayResult: 2
+    },
+
+    penalties: null,
+
+    stadium: "Hard Rock Stadium",
+    referee: "Fischer D.",
+    date: "2026-07-04"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_32.id,
+
+    homeTeam: {
+      name: "Colombia",
+      flag: "colombia",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Ghana",
+      flag: "ghana",
+      result: 0
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "Arrowhead Stadium",
+    referee: "Turpin C.",
+    date: "2026-07-04"
   },
 
   // Round of 16
