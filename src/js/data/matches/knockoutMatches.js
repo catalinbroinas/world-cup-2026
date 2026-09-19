@@ -638,6 +638,60 @@ export const knockoutMatches = [
     referee: "Oliver M.",
     date: "2026-07-10"
   },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.QUARTER_FINAL.id,
+
+    homeTeam: {
+      name: "norway",
+      flag: "norway",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "england",
+      flag: "england",
+      result: 1
+    },
+
+    extraTime: {
+      homeResult: 1,
+      awayResult: 2
+    },
+
+    penalties: null,
+
+    stadium: "Hard Rock Stadium",
+    referee: "Turpin C.",
+    date: "2026-07-12"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.QUARTER_FINAL.id,
+
+    homeTeam: {
+      name: "argentina",
+      flag: "argentina",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Switzerland",
+      flag: "switzerland",
+      result: 1
+    },
+
+    extraTime: {
+      homeResult: 3,
+      awayResult: 1
+    },
+
+    penalties: null,
+
+    stadium: "Arrowhead Stadium",
+    referee: "Pinheiro J.",
+    date: "2026-07-12"
+  },
 
   // Semi-finals
   {
