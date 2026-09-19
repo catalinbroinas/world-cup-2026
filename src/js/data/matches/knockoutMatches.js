@@ -468,6 +468,128 @@ export const knockoutMatches = [
     referee: "Elfath I.",
     date: "2026-07-05"
   },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_16.id,
+
+    homeTeam: {
+      name: "Mexico",
+      flag: "mexico",
+      result: 2
+    },
+
+    awayTeam: {
+      name: "England",
+      flag: "england",
+      result: 3
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "Estadio Azteca",
+    referee: "Faghani A.",
+    date: "2026-07-06"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_16.id,
+
+    homeTeam: {
+      name: "Portugal",
+      flag: "portugal",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Spain",
+      flag: "spain",
+      result: 1
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "AT&T Stadium",
+    referee: "Taylor A.",
+    date: "2026-07-06"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_16.id,
+
+    homeTeam: {
+      name: "United States",
+      flag: "united-states",
+      result: 1
+    },
+
+    awayTeam: {
+      name: "Belgium",
+      flag: "belgium",
+      result: 4
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "Lumen Field",
+    referee: "Makhadmeh A",
+    date: "2026-07-07"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_16.id,
+
+    homeTeam: {
+      name: "Argentina",
+      flag: "argentina",
+      result: 3
+    },
+
+    awayTeam: {
+      name: "Egypt",
+      flag: "egypt",
+      result: 2
+    },
+
+    extraTime: null,
+    penalties: null,
+
+    stadium: "Mercedes-Benz Stadium",
+    referee: "Letexier F.",
+    date: "2026-07-07"
+  },
+  {
+    id: crypto.randomUUID(),
+    stage: KNOCKOUT_STAGE.ROUND_OF_16.id,
+
+    homeTeam: {
+      name: "Switzerland",
+      flag: "switzerland",
+      result: 0
+    },
+
+    awayTeam: {
+      name: "Colombia",
+      flag: "colombia",
+      result: 0
+    },
+
+    extraTime: {
+      homeResult: 0,
+      awayResult: 0
+    },
+
+    penalties: {
+      homeResult: 4,
+      awayResult: 3
+    },
+
+    stadium: "BC Place",
+    referee: "Barton I.",
+    date: "2026-07-07"
+  },
 
   // Quarter-finals
   {
