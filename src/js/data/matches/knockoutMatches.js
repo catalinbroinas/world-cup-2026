@@ -643,13 +643,13 @@ export const knockoutMatches = [
     stage: KNOCKOUT_STAGE.QUARTER_FINAL.id,
 
     homeTeam: {
-      name: "norway",
+      name: "Norway",
       flag: "norway",
       result: 1
     },
 
     awayTeam: {
-      name: "england",
+      name: "England",
       flag: "england",
       result: 1
     },
@@ -670,7 +670,7 @@ export const knockoutMatches = [
     stage: KNOCKOUT_STAGE.QUARTER_FINAL.id,
 
     homeTeam: {
-      name: "argentina",
+      name: "Argentina",
       flag: "argentina",
       result: 1
     },
