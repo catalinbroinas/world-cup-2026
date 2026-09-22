@@ -107,4 +107,54 @@ export const teams = [
     name: "Colombia",
     flag: "colombia"
   },
+
+  {
+    id: "czech-republic",
+    imageUrl: teamImages.czechRepublic,
+    imageAlt: "Stadion Letná",
+    name: "Czech Republic",
+    flag: "czech-republic"
+  },
+  {
+    id: "norway",
+    imageUrl: teamImages.norway,
+    imageAlt: "Ullevaal Stadion",
+    name: "Norway",
+    flag: "norway"
+  },
+  {
+    id: "sweden",
+    imageUrl: teamImages.sweden,
+    imageAlt: "Nationalarenan",
+    name: "Sweden",
+    flag: "sweden"
+  },
+  {
+    id: "turkey",
+    imageUrl: teamImages.turkey,
+    imageAlt: "Galatasaray stadium",
+    name: "Turkey",
+    flag: "turkey"
+  },
+  {
+    id: "croatia",
+    imageUrl: teamImages.croatia,
+    imageAlt: "Maksimir stadium",
+    name: "Croatia",
+    flag: "croatia"
+  },
+  {
+    id: "bosnia",
+    imageUrl: teamImages.bosnia,
+    imageAlt: "Bilino Polje Stadium",
+    name: "Bosnia",
+    flag: "bosnia"
+  },
+  {
+    id: "austria",
+    imageUrl: teamImages.austria,
+    imageAlt: "Ernst Happel Stadion",
+    name: "Austria",
+    flag: "austria"
+  },
 ];

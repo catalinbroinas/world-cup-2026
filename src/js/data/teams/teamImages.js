@@ -15,6 +15,14 @@ import monumentalImg from "../../../assets/images/stadiums/teams/monumental.webp
 import maracanaImg from "../../../assets/images/stadiums/teams/maracana.webp";
 import uruguayImg from "../../../assets/images/stadiums/teams/uruguay.webp";
 
+import austriaImg from "../../../assets/images/stadiums/teams/austria.webp";
+import bosniaImg from "../../../assets/images/stadiums/teams/bosnia.webp";
+import croatiaImg from "../../../assets/images/stadiums/teams/croatia.webp";
+import czechRepublicImg from "../../../assets/images/stadiums/teams/czechRepublic.webp";
+import norwayImg from "../../../assets/images/stadiums/teams/norway.webp";
+import swedenImg from "../../../assets/images/stadiums/teams/sweden.webp";
+import turkeyImg from "../../../assets/images/stadiums/teams/turkey.webp";
+
 export const teamImages = {
   wembley: wembleyImg,
   olympiastadion: olympiastadionImg,
@@ -30,5 +38,12 @@ export const teamImages = {
   defensores: defensoresImg,
   monumental: monumentalImg,
   maracana: maracanaImg,
-  uruguay: uruguayImg
+  uruguay: uruguayImg,
+  austria: austriaImg,
+  bosnia: bosniaImg,
+  croatia: croatiaImg,
+  czechRepublic: czechRepublicImg,
+  norway: norwayImg,
+  sweden: swedenImg,
+  turkey: turkeyImg
 };
