@@ -155,4 +155,18 @@ export const teams = [
     name: "Colombia",
     flag: "colombia"
   },
+  {
+    id: "new-zealand",
+    imageUrl: teamImages.newZealand,
+    imageAlt: "Wellington Regional Stadium",
+    name: "New Zealand",
+    flag: "new-zealand"
+  },
+  {
+    id: "australia",
+    imageUrl: teamImages.australia,
+    imageAlt: "Australia Stadium",
+    name: "Australia",
+    flag: "australia"
+  },
 ];

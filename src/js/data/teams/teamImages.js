@@ -23,6 +23,9 @@ import norwayImg from "../../../assets/images/stadiums/teams/norway.webp";
 import swedenImg from "../../../assets/images/stadiums/teams/sweden.webp";
 import turkeyImg from "../../../assets/images/stadiums/teams/turkey.webp";
 
+import newZealandImg from "../../../assets/images/stadiums/teams/newZealand.webp";
+import australiaImg from "../../../assets/images/stadiums/teams/australia.webp";
+
 export const teamImages = {
   wembley: wembleyImg,
   olympiastadion: olympiastadionImg,
@@ -45,5 +48,7 @@ export const teamImages = {
   czechRepublic: czechRepublicImg,
   norway: norwayImg,
   sweden: swedenImg,
-  turkey: turkeyImg
+  turkey: turkeyImg,
+  newZealand: newZealandImg,
+  australia: australiaImg
 };
