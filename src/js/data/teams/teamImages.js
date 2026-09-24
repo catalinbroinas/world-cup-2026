@@ -39,6 +39,8 @@ import coracaoImg from "../../../assets/images/stadiums/teams/coracao.webp";
 import panamaImg from "../../../assets/images/stadiums/teams/panama.webp";
 import haitiImg from "../../../assets/images/stadiums/teams/haiti.webp";
 
+import moroccoImg from "../../../assets/images/stadiums/teams/morocco.webp";
+
 export const teamImages = {
   wembley: wembleyImg,
   olympiastadion: olympiastadionImg,
@@ -75,4 +77,5 @@ export const teamImages = {
   coracao: coracaoImg,
   panama: panamaImg,
   haiti: haitiImg,
+  morocco: moroccoImg,
 };

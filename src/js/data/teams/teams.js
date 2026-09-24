@@ -269,4 +269,11 @@ export const teams = [
     name: "Panama",
     flag: "panama"
   },
+  {
+    id: "morocco",
+    imageUrl: teamImages.morocco,
+    imageAlt: "Prince Moulay Abdellah Stadium",
+    name: "Morocco",
+    flag: "morocco"
+  },
 ];
