@@ -1,4 +1,5 @@
 import { teamImages } from "./teamImages";
+import { stadiumImages } from "../stadiums/stadiumImages";
 
 export const teams = [
   {
@@ -168,5 +169,26 @@ export const teams = [
     imageAlt: "Australia Stadium",
     name: "Australia",
     flag: "australia"
+  },
+  {
+    id: "united-states",
+    imageUrl: stadiumImages.sofi,
+    imageAlt: "Sofi Stadium",
+    name: "United States",
+    flag: "united-states"
+  },
+  {
+    id: "canada",
+    imageUrl: stadiumImages.bcPlace,
+    imageAlt: "BC Place",
+    name: "Canada",
+    flag: "canada"
+  },
+  {
+    id: "mexico",
+    imageUrl: stadiumImages.azteca,
+    imageAlt: "Estadio Azteca",
+    name: "Mexico",
+    flag: "mexico"
   },
 ];
