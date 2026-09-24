@@ -191,4 +191,61 @@ export const teams = [
     name: "Australia",
     flag: "australia"
   },
+
+  {
+    id: "qatar",
+    imageUrl: teamImages.qatar,
+    imageAlt: "Qatar stadium",
+    name: "Qatar",
+    flag: "qatar"
+  },
+  {
+    id: "japan",
+    imageUrl: teamImages.japan,
+    imageAlt: "japan National Stadium",
+    name: "Japan",
+    flag: "japan"
+  },
+  {
+    id: "south-korea",
+    imageUrl: teamImages.seoulStadium,
+    imageAlt: "Seoul World Cup Stadium",
+    name: "South Korea",
+    flag: "south-korea"
+  },
+  {
+    id: "saudi-arabia",
+    imageUrl: teamImages.saudiArabia,
+    imageAlt: "King Abdullah Sports City Stadium",
+    name: "Saudi Arabia",
+    flag: "saudi-arabia"
+  },
+  {
+    id: "iran",
+    imageUrl: teamImages.iran,
+    imageAlt: "Azadi Stadium",
+    name: "Iran",
+    flag: "iran"
+  },
+  {
+    id: "iraq",
+    imageUrl: teamImages.iraq,
+    imageAlt: "iraq National Stadium",
+    name: "Iraq",
+    flag: "iraq"
+  },
+  {
+    id: "uzbekistan",
+    imageUrl: teamImages.uzbekistan,
+    imageAlt: "Milliy Stadium",
+    name: "Uzbekistan",
+    flag: "uzbekistan"
+  },
+  {
+    id: "jordan",
+    imageUrl: teamImages.jordan,
+    imageAlt: "Amman International Stadium",
+    name: "Jordan",
+    flag: "jordan"
+  },
 ];

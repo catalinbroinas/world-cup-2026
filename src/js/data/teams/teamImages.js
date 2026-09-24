@@ -26,6 +26,15 @@ import turkeyImg from "../../../assets/images/stadiums/teams/turkey.webp";
 import newZealandImg from "../../../assets/images/stadiums/teams/newZealand.webp";
 import australiaImg from "../../../assets/images/stadiums/teams/australia.webp";
 
+import qatarImg from "../../../assets/images/stadiums/teams/qatar.webp";
+import japanImg from "../../../assets/images/stadiums/teams/japan.webp";
+import seoulStadiumImg from "../../../assets/images/stadiums/teams/seoulStadium.webp";
+import saudiArabiaImg from "../../../assets/images/stadiums/teams/saudiArabia.webp";
+import iranImg from "../../../assets/images/stadiums/teams/iran.webp";
+import iraqImg from "../../../assets/images/stadiums/teams/iraq.webp";
+import jordanImg from "../../../assets/images/stadiums/teams/jordan.webp";
+import uzbekistanImg from "../../../assets/images/stadiums/teams/uzbekistan.webp";
+
 export const teamImages = {
   wembley: wembleyImg,
   olympiastadion: olympiastadionImg,
@@ -50,5 +59,13 @@ export const teamImages = {
   sweden: swedenImg,
   turkey: turkeyImg,
   newZealand: newZealandImg,
-  australia: australiaImg
+  australia: australiaImg,
+  qatar: qatarImg,
+  japan: japanImg,
+  seoulStadium: seoulStadiumImg,
+  saudiArabia: saudiArabiaImg,
+  iran: iranImg,
+  iraq: iraqImg,
+  jordan: jordanImg,
+  uzbekistan: uzbekistanImg
 };
