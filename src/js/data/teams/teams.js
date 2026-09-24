@@ -248,4 +248,25 @@ export const teams = [
     name: "Jordan",
     flag: "jordan"
   },
+  {
+    id: "haiti",
+    imageUrl: teamImages.haiti,
+    imageAlt: "Stade Sylvio Cator",
+    name: "Haiti",
+    flag: "haiti"
+  },
+  {
+    id: "coracao",
+    imageUrl: teamImages.coracao,
+    imageAlt: "Ergilio Hato Stadium",
+    name: "Coracao",
+    flag: "cook-islands"
+  },
+  {
+    id: "panama",
+    imageUrl: teamImages.panama,
+    imageAlt: "Rommel Fernández Stadium",
+    name: "Panama",
+    flag: "panama"
+  },
 ];

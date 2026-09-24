@@ -35,6 +35,10 @@ import iraqImg from "../../../assets/images/stadiums/teams/iraq.webp";
 import jordanImg from "../../../assets/images/stadiums/teams/jordan.webp";
 import uzbekistanImg from "../../../assets/images/stadiums/teams/uzbekistan.webp";
 
+import coracaoImg from "../../../assets/images/stadiums/teams/coracao.webp";
+import panamaImg from "../../../assets/images/stadiums/teams/panama.webp";
+import haitiImg from "../../../assets/images/stadiums/teams/haiti.webp";
+
 export const teamImages = {
   wembley: wembleyImg,
   olympiastadion: olympiastadionImg,
@@ -67,5 +71,8 @@ export const teamImages = {
   iran: iranImg,
   iraq: iraqImg,
   jordan: jordanImg,
-  uzbekistan: uzbekistanImg
+  uzbekistan: uzbekistanImg,
+  coracao: coracaoImg,
+  panama: panamaImg,
+  haiti: haitiImg,
 };
