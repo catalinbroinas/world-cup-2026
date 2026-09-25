@@ -152,7 +152,7 @@ export const teams = [
   {
     id: "uruguay",
     imageUrl: teamImages.uruguay,
-    imageAlt: "Penarol`s stadium",
+    imageAlt: "Estadio Centenario",
     name: "Uruguay",
     flag: "uruguay"
   },
