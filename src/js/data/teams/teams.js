@@ -158,8 +158,8 @@ export const teams = [
   },
   {
     id: "paraguay",
-    imageUrl: teamImages.defensores,
-    imageAlt: "Defensores",
+    imageUrl: teamImages.paraguay,
+    imageAlt: "Estadio Defensores del Chaco",
     name: "Paraguay",
     flag: "paraguay"
   },
