@@ -40,6 +40,15 @@ import panamaImg from "../../../assets/images/stadiums/teams/panama.webp";
 import haitiImg from "../../../assets/images/stadiums/teams/haiti.webp";
 
 import moroccoImg from "../../../assets/images/stadiums/teams/morocco.webp";
+import senegalImg from "../../../assets/images/stadiums/teams/senegal.webp";
+import ghanaImg from "../../../assets/images/stadiums/teams/ghana.webp";
+import coteDivoireImg from "../../../assets/images/stadiums/teams/coteDivoire.webp";
+import algeriaImg from "../../../assets/images/stadiums/teams/algeria.webp";
+import tunisiaImg from "../../../assets/images/stadiums/teams/tunisia.webp";
+import egyptImg from "../../../assets/images/stadiums/teams/egypt.webp";
+import drCongoImg from "../../../assets/images/stadiums/teams/drCongo.webp";
+import capeVerdeImg from "../../../assets/images/stadiums/teams/capeVerde.webp";
+import southAfricaImg from "../../../assets/images/stadiums/teams/southAfrica.webp";
 
 export const teamImages = {
   wembley: wembleyImg,
@@ -78,4 +87,13 @@ export const teamImages = {
   panama: panamaImg,
   haiti: haitiImg,
   morocco: moroccoImg,
+  senegal: senegalImg,
+  ghana: ghanaImg,
+  coteDivoire: coteDivoireImg,
+  algeria: algeriaImg,
+  tunisia: tunisiaImg,
+  egypt: egyptImg,
+  capeVerde: capeVerdeImg,
+  drCongo: drCongoImg,
+  southAfrica: southAfricaImg
 };

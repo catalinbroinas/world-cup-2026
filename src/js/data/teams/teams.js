@@ -276,4 +276,67 @@ export const teams = [
     name: "Morocco",
     flag: "morocco"
   },
+  {
+    id: "senegal",
+    imageUrl: teamImages.senegal,
+    imageAlt: "Stade Lat Dior",
+    name: "Senegal",
+    flag: "senegal"
+  },
+  {
+    id: "ghana",
+    imageUrl: teamImages.ghana,
+    imageAlt: "Ghana stadium",
+    name: "Ghana",
+    flag: "ghana"
+  },
+  {
+    id: "cote-divoire",
+    imageUrl: teamImages.coteDivoire,
+    imageAlt: "Union Discipline Travail Stadium",
+    name: "Cote Divoire",
+    flag: "cote-divoire"
+  },
+  {
+    id: "egypt",
+    imageUrl: teamImages.egypt,
+    imageAlt: "Cairo International Stadium",
+    name: "Egypt",
+    flag: "egypt"
+  },
+  {
+    id: "tunisia",
+    imageUrl: teamImages.tunisia,
+    imageAlt: "Radès Olympic stadium",
+    name: "Tunisia",
+    flag: "tunisia"
+  },
+  {
+    id: "algeria",
+    imageUrl: teamImages.algeria,
+    imageAlt: "Nelson Mandela Stadium",
+    name: "Algeria",
+    flag: "algeria"
+  },
+  {
+    id: "congo",
+    imageUrl: teamImages.drCongo,
+    imageAlt: "Stade des Martyrs",
+    name: "DR Congo",
+    flag: "congo"
+  },
+  {
+    id: "cape-verde",
+    imageUrl: teamImages.capeVerde,
+    imageAlt: "Estádio Nacional de Cabo Verde",
+    name: "Cape Verde",
+    flag: "cape-verde"
+  },
+  {
+    id: "south-africa",
+    imageUrl: teamImages.southAfrica,
+    imageAlt: "Stadium from Cape Town, South Africa",
+    name: "South Africa",
+    flag: "south-africa"
+  }
 ];
