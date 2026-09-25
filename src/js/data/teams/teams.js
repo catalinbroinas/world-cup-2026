@@ -137,15 +137,15 @@ export const teams = [
   },
   {
     id: "brazil",
-    imageUrl: teamImages.maracana,
-    imageAlt: "Maracana",
+    imageUrl: teamImages.brazil,
+    imageAlt: "Maracanã Stadium",
     name: "Brazil",
     flag: "brazil"
   },
   {
     id: "argentina",
-    imageUrl: teamImages.laBombonera,
-    imageAlt: "La bombonera",
+    imageUrl: teamImages.argentina,
+    imageAlt: "Estadio Más Monumental",
     name: "Argentina",
     flag: "argentina"
   },

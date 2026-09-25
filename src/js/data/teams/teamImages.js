@@ -9,10 +9,10 @@ import celticParkImg from "../../../assets/images/stadiums/teams/celticPark.webp
 import bernImg from "../../../assets/images/stadiums/teams/bern.webp";
 
 import risaraldaImg from "../../../assets/images/stadiums/teams/risaralda-Columbia.webp";
-import laBomboneraImg from "../../../assets/images/stadiums/teams/laBombonera-2.webp";
+import argentinaImg from "../../../assets/images/stadiums/teams/argentina.webp";
 import paraguayImg from "../../../assets/images/stadiums/teams/paraguay.webp";
 import monumentalImg from "../../../assets/images/stadiums/teams/monumental.webp";
-import maracanaImg from "../../../assets/images/stadiums/teams/maracana.webp";
+import brazilImg from "../../../assets/images/stadiums/teams/brazil.webp";
 import uruguayImg from "../../../assets/images/stadiums/teams/uruguay.webp";
 
 import austriaImg from "../../../assets/images/stadiums/teams/austria.webp";
@@ -61,10 +61,10 @@ export const teamImages = {
   celticPark: celticParkImg,
   bern: bernImg,
   risaralda: risaraldaImg,
-  laBombonera: laBomboneraImg,
+  argentina: argentinaImg,
   paraguay: paraguayImg,
   monumental: monumentalImg,
-  maracana: maracanaImg,
+  brazil: brazilImg,
   uruguay: uruguayImg,
   austria: austriaImg,
   bosnia: bosniaImg,
