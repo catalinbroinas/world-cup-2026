@@ -116,12 +116,22 @@
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
+    &:focus-visible {
+      outline: 2px solid $text-accent;
+      outline-offset: 4px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: transparent;
+        border: 1.5px solid rgba($text-white, $alpha: 0.7);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+      }
+    }
+
     &:active {
-      background-color: transparent;
-      border: 1.5px solid rgba($text-white, $alpha: 0.7);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      transform: scale(1.05);
+      transform: scale(1);
     }
   }
 
