@@ -21,6 +21,7 @@ export default {
         stadiums: resolve(import.meta.dirname, 'stadiums.html'),
         groups: resolve(import.meta.dirname, 'group-stage.html'),
         knockout: resolve(import.meta.dirname, 'knockout-stage.html'),
+        credits: resolve(import.meta.dirname, 'credits.html'),
       },
     },
     rollupOptions: {
