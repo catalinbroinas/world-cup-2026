@@ -6,10 +6,10 @@
 // =================================
 
 .tournament-facts {
-  background-color: $bg-section;
-  padding: 3rem 2rem;
+  background-color: $bg-surface;
+  padding: 2.5rem 2rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
 
   &__list {
     list-style: none;
@@ -26,7 +26,7 @@
   }
 
   &__icon {
-    font-size: 3rem;
+    font-size: 1.75rem;
     color: color.scale($text-accent, $lightness: 15%);
     line-height: 1;
     margin-bottom: 0.25rem;
@@ -35,15 +35,17 @@
   &__value {
     @include title($size: 2rem);
     font-variant-numeric: tabular-nums;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 1;
     margin-bottom: 0;
   }
 
   &__label {
-    @include subtitle($size: 1.5rem, $color: $text-muted);
+    @include subtitle($size: 1rem, $color: $text-muted);
     text-align: center;
-    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    line-height: 1.2;
     margin-bottom: 0;
   }
 }
