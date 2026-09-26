@@ -21,7 +21,7 @@
   &__link {
     text-decoration: none;
     color: $text-primary;
-    font-weight: 600;
+    font-weight: 500;
     transition: color 0.25s ease;
 
     &:focus-visible {
@@ -31,7 +31,6 @@
 
     @media (hover: hover) {
       &:hover {
-        text-decoration: underline;
         color: $text-accent;
       }
     }
