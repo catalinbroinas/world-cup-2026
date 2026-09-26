@@ -19,6 +19,11 @@
     font-weight: 600;
     transition: color 0.25s ease;
 
+    &:focus-visible {
+      outline: 2px solid $text-accent;
+      outline-offset: 4px;
+    }
+
     @media (hover: hover) {
       &:hover {
         text-decoration: underline;
