@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use '../base' as *;
 
 // =================================
@@ -6,11 +7,15 @@
 
 .footer {
   background-color: $bg-section;
-  padding: 1rem 3rem;
+  text-align: center;
 
   &__credits {
-    text-align: center;
-    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+  }
+
+  &__copyright {
+    background-color: color.scale($bg-section, $lightness: -5%);
+    padding: 1rem 3rem;
   }
 
   &__link {
@@ -34,7 +39,6 @@
 
   &__text {
     @include text-footer();
-    text-align: center;
     margin: 0;
   }
 }
