@@ -10,9 +10,19 @@
 
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 
-  &:hover {
-    box-shadow: 0 10px 24px rgba($primary, 0.10);
-    transform: translateY(-4px);
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 10px 24px rgba($primary, 0.10);
+      transform: translateY(-4px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
   }
 
   &__image-wrapper {
