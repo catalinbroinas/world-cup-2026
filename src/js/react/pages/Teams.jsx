@@ -3,6 +3,7 @@ import { useState } from "react";
 import TeamGrid from "../components/Teams/TeamGrid";
 import Toolbar from "../components/Toolbar/Toolbar";
 import SearchBar from "../components/Toolbar/SearchBar";
+import Sort from "../components/Toolbar/Sort";
 
 import { teams } from "../../data/teams/teams";
 
@@ -25,6 +26,7 @@ function Teams() {
           query={query}
           onQueryChange={setQuery}
         />
+        <Sort />
       </Toolbar>
 
       {filteredTeams.length > 0 ? (

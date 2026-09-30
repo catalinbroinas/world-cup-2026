@@ -5,6 +5,7 @@ import { stadiums } from "../../data/stadiums/stadiums";
 import StadiumGrid from "../components/Stadiums/StadiumGrid";
 import Toolbar from "../components/Toolbar/Toolbar";
 import SearchBar from "../components/Toolbar/SearchBar";
+import Sort from "../components/Toolbar/Sort";
 
 function Stadiums() {
   const [query, setQuery] = useState("");
@@ -25,6 +26,7 @@ function Stadiums() {
           query={query}
           onQueryChange={setQuery}
         />
+        <Sort />
       </Toolbar>
 
       {filteredStadiums.length > 0 ? (
