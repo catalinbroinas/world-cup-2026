@@ -1,18 +1,27 @@
 import { useState } from "react";
 
+// Data
 import { stadiums } from "../../data/stadiums/stadiums";
+import { sortStadiums } from "../../data/stadiums/sortOptions";
 
+// Components
 import StadiumGrid from "../components/Stadiums/StadiumGrid";
 import Toolbar from "../components/Toolbar/Toolbar";
 import SearchBar from "../components/Toolbar/SearchBar";
 import Sort from "../components/Toolbar/Sort";
 
+// Utilities
+import { sortBy } from "../../utils/sort";
+
 function Stadiums() {
   const [query, setQuery] = useState("");
+  const [sortOption, setSortOption] = useState(sortStadiums[0].value);
 
-  const filteredStadiums = stadiums.filter((stadium =>
+  const filteredStadiums = stadiums.filter((stadium) =>
     stadium.name.toLowerCase().includes(query.toLowerCase())
-  ));
+  );
+
+  const sortedStadiums = sortBy(filteredStadiums, sortOption);
 
   return (
     <section className="stadiums-content">
@@ -26,11 +35,17 @@ function Stadiums() {
           query={query}
           onQueryChange={setQuery}
         />
-        <Sort />
+
+        <Sort
+          name="stadiums"
+          value={sortOption}
+          options={sortStadiums}
+          onChange={setSortOption}
+        />
       </Toolbar>
 
-      {filteredStadiums.length > 0 ? (
-        <StadiumGrid stadiums={filteredStadiums} />
+      {sortedStadiums.length > 0 ? (
+        <StadiumGrid stadiums={sortedStadiums} />
       ) : (
         <div className="alert alert-info" role="status">
           No stadiums found.
