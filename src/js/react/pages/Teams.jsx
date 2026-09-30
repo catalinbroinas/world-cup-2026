@@ -1,18 +1,29 @@
 import { useState } from "react";
 
+// Components
 import TeamGrid from "../components/Teams/TeamGrid";
 import Toolbar from "../components/Toolbar/Toolbar";
 import SearchBar from "../components/Toolbar/SearchBar";
 import Sort from "../components/Toolbar/Sort";
 
+// Data
 import { teams } from "../../data/teams/teams";
+import { sortTeams } from "../../data/teams/sortOptions";
+
+// Utilities
+import { sortBy } from "../../utils/sort";
 
 function Teams() {
+  // States
   const [query, setQuery] = useState("");
+  const [sortOption, setSortOption] = useState(sortTeams[0].value);
 
+  // Processing
   const filteredTeams = teams.filter((team) => 
     team.name.toLowerCase().includes(query.toLowerCase())
   );
+
+  const sortedTeams = sortBy(filteredTeams, sortOption);
 
   return (
     <section className="teams-content">
@@ -26,11 +37,17 @@ function Teams() {
           query={query}
           onQueryChange={setQuery}
         />
-        <Sort />
+
+        <Sort
+          name="teams"
+          value={sortOption}
+          options={sortTeams}
+          onChange={setSortOption}
+        />
       </Toolbar>
 
-      {filteredTeams.length > 0 ? (
-        <TeamGrid teams={filteredTeams} />
+      {sortedTeams.length > 0 ? (
+        <TeamGrid teams={sortedTeams} />
       ) : (
         <div className="alert alert-info" role="status">
           No teams found.
