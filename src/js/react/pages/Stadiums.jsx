@@ -3,6 +3,7 @@ import { useState } from "react";
 import { stadiums } from "../../data/stadiums/stadiums";
 
 import StadiumGrid from "../components/Stadiums/StadiumGrid";
+import Toolbar from "../components/Toolbar/Toolbar";
 import SearchBar from "../components/Toolbar/SearchBar";
 
 function Stadiums() {
@@ -18,13 +19,13 @@ function Stadiums() {
         Tournament stadiums
       </h2>
 
-      <div className="toolbar">
+      <Toolbar>
         <SearchBar
           name="stadiums"
           query={query}
           onQueryChange={setQuery}
         />
-      </div>
+      </Toolbar>
 
       {filteredStadiums.length > 0 ? (
         <StadiumGrid stadiums={filteredStadiums} />

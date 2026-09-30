@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import TeamGrid from "../components/Teams/TeamGrid";
+import Toolbar from "../components/Toolbar/Toolbar";
 import SearchBar from "../components/Toolbar/SearchBar";
 
 import { teams } from "../../data/teams/teams";
@@ -18,9 +19,13 @@ function Teams() {
         Tournament teams
       </h2>
 
-      <div className="toolbar">
-        <SearchBar name="teams" query={query} onQueryChange={setQuery} />
-      </div>
+      <Toolbar>
+        <SearchBar
+          name="teams"
+          query={query}
+          onQueryChange={setQuery}
+        />
+      </Toolbar>
 
       {filteredTeams.length > 0 ? (
         <TeamGrid teams={filteredTeams} />
