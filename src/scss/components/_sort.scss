@@ -1,0 +1,21 @@
+@use '../base' as *;
+
+// =================================
+//   SORT
+// =================================
+
+.sort {
+  &__select {
+    background-color: $bg-surface;
+    color: $text-muted;
+
+    option {
+      font-weight: 400;
+
+      &:checked {
+        background-color: $bg-section;
+        font-weight: 600;
+      }
+    }
+  }
+}

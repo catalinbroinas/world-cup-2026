@@ -9,10 +9,10 @@ function Sort({ name, value, options, onChange }) {
   }
 
   return (
-    <div className="input-group">
+    <div className="input-group sort">
       <select
         id={`sort-${name}`}
-        className="form-select"
+        className="form-select sort__select"
         value={value}
         onChange={(e) => onChange(e.target.value)}
         aria-label="Sort by"
