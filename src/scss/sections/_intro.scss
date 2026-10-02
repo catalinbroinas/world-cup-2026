@@ -231,13 +231,18 @@
 }
 
 .intro--page {
-  height: 40vh;
   height: 40svh;
 
   background-attachment: scroll;
 
   @include media-breakpoint-up(lg) {
     min-height: 440px;
+  }
+
+  .intro__mask {
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 2rem;
   }
 
   .intro__title {
